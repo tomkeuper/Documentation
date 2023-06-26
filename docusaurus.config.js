@@ -91,8 +91,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'BedWars2023',
+                to: '/docs/BedWars2023',
+              },
+              {
+                label: 'BedWarsProxy',
+                to: '/docs/BedWarsProxy',
               },
             ],
           },
