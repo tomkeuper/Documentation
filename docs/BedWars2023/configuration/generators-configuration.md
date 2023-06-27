@@ -7,7 +7,7 @@ sidebar_position: 3.4
 ```yaml
 #Under the "Default" configuration section there is the configuration for all the arena groups
 #without a specified configuration. If you don't know what an arena group is you should read
-#about them here: https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups
+#about them here: https://docs.tomkeuper.com/docs/BedWars1058/setup/arena-groups
 Default:
   #This contains the default settings for the iron generator on a team base
   #A player can change those values for his team buying upgrades
@@ -113,7 +113,7 @@ stack-items: false
 `````
 
 ### Custom generators per Arena Group
-If you don't know what is an arena group read about it [here](arena-groups).
+If you don't know what is an arena group read about it [here](../setup/arena-groups).
 
 Creating custom configuration it's really easy. Copy the `Default` configuration path, paste it and rename `Default` to your desired arena group. We'll use `4v4v4v4` as example. You can now change those configuration values for your `4v4v4v4` arenas.
 ````yaml
