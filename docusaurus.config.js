@@ -72,9 +72,15 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'bedwars2023',
             position: 'left',
-            label: 'BedWars2023',
+            label: 'Plugin',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'bedwarsProxy',
+            position: 'left',
+            label: 'Proxy',
           },
         ],
       },
