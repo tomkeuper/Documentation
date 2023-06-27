@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Scalable and Future-Ready',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+          BedWars2023 is a scalable spigot plugin that revolutionizes Bedwars gameplay. It easily accommodates future expansions, allowing seamless addition of new features.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Enhanced Customization with Addons',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+          The plugin boasts rich addon support, enhancing customization possibilities. Developers can create custom addons that seamlessly integrate with BedWars2023, taking gameplay to new heights.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Flexible Configurations for All',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+          With both advanced and simple options, BedWars2023 caters to a wide range of server owners. It provides accessibility for newcomers while offering fine-tuning capabilities for experienced users and advanced use-cases, by using different server types.
       </>
     ),
   },
