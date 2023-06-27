@@ -86,11 +86,11 @@ const config = {
             items: [
               {
                 label: 'BedWars2023',
-                to: '/BedWars2023',
+                to: '/docs/BedWars2023',
               },
               {
                 label: 'BedWarsProxy',
-                to: '/BedWarsProxy',
+                to: '/docs/BedWarsProxy',
               },
             ],
           },
