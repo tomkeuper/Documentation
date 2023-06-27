@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'BedWars2023',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Here you can find information about all project related to BedWars2023',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'BedWars2023',
+        title: 'Home',
         logo: {
           alt: 'BedWars2023 Logo',
           src: 'img/logo.svg',
@@ -74,12 +74,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            label: 'BedWars2023',
           },
         ],
       },
@@ -91,11 +86,11 @@ const config = {
             items: [
               {
                 label: 'BedWars2023',
-                to: '/docs/BedWars2023',
+                to: '/BedWars2023',
               },
               {
                 label: 'BedWarsProxy',
-                to: '/docs/BedWarsProxy',
+                to: '/BedWarsProxy',
               },
             ],
           },
@@ -103,30 +98,13 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://discord.gg/kPaBGwhmjf',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} FyreBlox, Inc. All Rights Reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
