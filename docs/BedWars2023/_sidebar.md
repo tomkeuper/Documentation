@@ -40,4 +40,4 @@
  * [JavaDocs](http://javadocs.andrei1058.com/BedWars1058/)
  * [Creating Commands](developers/commands)
  * [Custom Levels System](developers/custom-levels)
- * [Creating Custom Generators](developers/Creating-Ore-Generators)
+ * [Creating Custom Generators](developers/creating-ore-generators)
