@@ -3,23 +3,37 @@ sidebar_label: Features
 title: Features
 sidebar_position: 1.1
 ---
-* Individual language per player. Each player can receive messages, holograms and GUIs in his chosen language.
-* You can have unlimited arena groups with custom names, custom generators, custom scoreboard layouts and custom shop and team upgrades.
-* You can create as many teams you want with [custom names per language](configuration/arena-configuration#custom-team-name) and colors.
-* The scoreboards are 100% configurable. You can add up to 16 lines and you can use any placeholders you want.
-* Waiting lobby removal feature. It will remove the waiting lobby when the game starts.
-* Three ways to use the plugin: shared (multiple games on a server), bungee (one server one arena), multiarena (one server more arenas).
-* The shop is 100% configurable. You can create new categories and add new items. Works also with vault economy.
-* Special items available. Debug (silverfish), Dream Defender (Iron Golem) and Egg Bridge (Egg).
-* Team upgrades are 100% customizable. You can add more tiers and more upgrade types with effects, enchants, traps etc.
-* Ore generators values can be changed and also you can have different settings per arena group.
-* You can join arenas via command, signs, arenas GUI and via join NPCs.
-* Custom settings per arena such as allow-spectate, max-in-team and more.
-* You can let your VIPs join full arenas giving them the VIP kick permission.
-* Vault prefix and suffix support. LeaderHeads statistics support. PlaceholderAPI support. Citizens support.
-* This plugin provides also an internal party system so you can team-up with your friends.
-* The map resetting system is simple and efficient. All you have to do it's not to save bedwars maps. Disable the world-saving for them.
-* This plugin has also some add-ons made by the community, because BedWars1058 provides a large development API.
-* AFK system. Inactive players for more than 45 seconds can't pick-up items from generators.
-* You can add and remove items that you receive when you join the lobby, the arena and the spectator mode, and make them execute commands.
-* You can use [Parties](https://www.spigotmc.org/resources/parties-1-8-1-13.3709/) plugin on your network and if a player makes a party in the lobby and then joins a game he will be in the same team with friends.
+
+### Global Features
+* **Individual Language Support**: Each player can receive messages, holograms, and GUIs in their chosen language. This allows for a personalized experience for players from different linguistic backgrounds.
+* **Unlimited Arena Groups**: The plugin supports multiple arena groups with custom configurations, including custom names, generator settings, scoreboard layouts, and shop and team upgrades. This provides flexibility in setting up different gameplay scenarios tailored to your server's needs.
+* **Customizable Teams**: You can create as many teams as needed with [custom names per language](configuration/arena-configuration#custom-team-name) and unique team colors. 
+* **Waiting Lobby Removal**: To create a seamless gaming experience, the waiting lobby can be automatically removed once the game starts.
+* **Flexible Usage Modes**: The plugin offers three ways to utilize its features:
+  - Shared Mode: Supports multiple games on a single server.
+  - Bungee Mode: 1 Proxy Server with specific arenas on a different server. (Advanced)
+  - Multiarena Mode: Enables multiple arenas on one server.
+* **Configurable Shop**: The shop system is fully customizable, enabling you to create new item categories and add items with ease. It also supports integration with Vault economy for smooth in-game transactions.
+* **Customizable Team Upgrades**: Team upgrades can be tailored to your server's gameplay. Administrators can add more tiers and various upgrade types, including effects, enchantments, and traps, allowing players to strategize and enhance their team's abilities.
+* **Special Items**: Unique and exciting special items are available, including Bedbug (silverfish), Dream Defender (Iron Golem), and Egg Bridge (Egg). These items add an element of surprise and strategy to the game.
+* **Adjustable Ore Generators**: The plugin allows fine-tuning of ore generator values, providing control over resource distribution. Additionally, administrators can apply different settings to each arena group, further enhancing gameplay experiences.
+* **Custom Arena Settings**: Each arena can have its own set of custom settings, such as allowing spectate mode, setting maximum players per team, and more. This ensures administrators can create diverse gameplay scenarios customized to individual arenas.
+* **Multiple Join Methods**: Players can join arenas using various methods, including commands, signs, arenas GUI, and join NPCs. This flexibility makes it easy for players to access and participate in games.
+* **VIP Join Permissions**: VIP players can join full arenas using VIP kick permission, ensuring premium players can always access games, even during peak times.
+* **Integration Support**: The plugin seamlessly integrates with some other popular Minecraft plugins, including Vault (for economy support), LeaderHeads (for statistics tracking), PlaceholderAPI (for dynamic placeholders), and Citizens (for NPC interactions).
+* **Built-in Party System**: Players can team up with friends using the plugin's internal party system, making it easy for groups to coordinate and play together.
+* **Map Resetting System**: The plugin includes a built-in map resetting system, ensuring that BedWars maps can be reset after each game. Administrators must remember not to save BedWars maps to prevent accidental world-saving issues.
+* **AFK System**: Inactive players who haven't moved for more than 45 seconds are unable to pick up items from generators. This prevents players from idling and encourages active participation.
+* **Custom Join Items**: Administrators can configure items that players receive upon joining the lobby, the arena, and spectator mode. These items can also be set to execute commands, enhancing the overall gameplay experience.
+* **Statistics Tracking**: The plugin provides detailed statistics tracking with player performance like kills, beds destroyed, etc. allowing other plugins and addons to create leaderboard rankings.
+
+
+### Scoreboard Features
+* **Customizable Scoreboards**: The plugin offers a fully configurable scoreboard system, allowing administrators to add up to 16 lines and utilize any desired placeholders. This customization ensures that relevant game information is displayed to players in a clear and informative manner.
+* **Tab Sorting**: Sort players using various sorting methods like permissions, placeholders and groups.
+* **TAB Plugin**: BedWars2023 uses TAB plugin by NEZNAMY for the scoreboard and tab list. A full list of features can be found on their [wiki](https://github.com/NEZNAMY/TAB/wiki/).
+
+### Add-Ons
+* **Addon Support**: The BedWars2023 plugin supports community-made add-ons, expanding the plugin's functionality.
+* **Parties**: You can use [Parties](https://www.spigotmc.org/resources/parties-1-8-1-13.3709/) plugin on your network and if a player creates a party in the lobby and then joins a game he will be in the same team with friends.
+* **Other Addons**: A full list of addons can be found in [addons](addons).

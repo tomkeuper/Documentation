@@ -3,28 +3,34 @@ sidebar_label: Maven
 title: Maven
 sidebar_position: 5.2
 ---
-[![Version](https://img.shields.io/spiget/version/50942)](https://www.spigotmc.org/resources/50942)
+[![Version](https://img.shields.io/nexus/releases/com.tomkeuper.bedwars/bedwars-api?server=https%3A%2F%2Frepo.tomkeuper.com)](https://repo.tomkeuper.com)
 
 ##### Repository
 
 ```xml
 <repositories>
-  <repository>
-    <id>andrei1058-repo</id>
-    <url>https://repo.andrei1058.dev/releases/</url>
-  </repository>
+    <repository>
+        <id>bedwars2023-releases</id>
+        <url>https://repo.tomkeuper.com/repository/releases/</url>
+    </repository>
+    
+    <!--Use for Snapshots only!-->
+    <repository>
+        <id>bedwars2023-snapshots</id>
+        <url>https://repo.tomkeuper.com/repository/snapshots/</url>
+    </repository>
+    <!-- -->
 </repositories>
-
 ```
 
 ##### Dependency
 
 ```xml
-<!--BedWars1058 API-->
+<!--BedWars2023 API-->
 <dependency>
-  <groupId>com.andrei1058.bedwars</groupId>
-  <artifactId>bedwars-api</artifactId>
-  <version>VERSION-HERE</version>
+    <groupId>com.tomkeuper.bedwars</groupId>
+    <artifactId>bedwars-api</artifactId>
+    <version>{version}</version>
+    <scope>provided</scope>
 </dependency>
-
 ```

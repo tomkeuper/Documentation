@@ -6,12 +6,11 @@ sidebar_position: 99
 
 ## Addons
 
-A list of addons for BedWars1058. <br/>
+A list of addons for BedWars2023. <br/>
 To add your own addon(s), use the edit button at the bottom of the page, click the fork button, make your changes, then open a pull request.
 
 Most of these addons are made by the community.
-If you have issues with the addon, it will probably be better to go to any support the author of the addon has, rather than the main bedwars support.
-
+If you encounter any issues regarding addons for BedWars, make sure to contact the developer(s) of the addon itself first.
 ### Premium Addons
 - [HotbarManager - Feature Packed HotBar Manager for BedWars1058](https://polymart.org/resource/2183/) - by StudioBeam Development
 - [⚔️ Armed Mode Addon - A exciting new gamemode for BedWars1058](https://polymart.org/resource/2394/) - by StudioBeam Development

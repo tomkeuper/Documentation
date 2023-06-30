@@ -1,6 +1,6 @@
 ---
-sidebar_label: Joining arenas
-title: How to join arenas
+sidebar_label: Joining Arenas
+title: How to join an arena
 sidebar_position: 2.3
 ---
 ## About
@@ -26,7 +26,7 @@ You can join arenas via this item received when you join the server if it is `se
 BedWars1058 provides [Citizens](https://www.spigotmc.org/resources/citizens.13811/) support. You can join arenas by clicking on an NPC. More details about Citizens hook [here](../hooks/citizens-hook).
 
 ## Join Signs
-If you want to place a join sign, first of all you need to type `/bw build` in order to place blocks. Now you can place it and write on the first line `[bw]` and on the second line the name of the warena you want to join.
+If you want to place a join sign, first of all you need to type `/bw build` in order to place blocks. Now you can place it and write on the first line `[bw]` and on the second line the name of the arena you want to join.
 
 **Example:**
 ```
