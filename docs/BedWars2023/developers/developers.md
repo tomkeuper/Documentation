@@ -3,5 +3,5 @@ title: Developers
 ---
 * [Getting Started](getting-started) 
 * [Events](events)
-* [JavaDocs](https://javadocs.andrei1058.dev/BedWars1058/)
+* [JavaDocs](https://javadocs.tomkeuper.com/BedWars2023/)
 * [Creating Commands](commands)

@@ -3,10 +3,32 @@ sidebar_label: Events
 title: Events
 sidebar_position: 5.3
 ---
-BedWars1058 is providing A LOT of events. You can see them on the [JavaDocs](https://javadocs.andrei1058.dev/BedWars1058).
+
+:::info
+
+If you are looking for an event that doesn't exist yet, make sure to create a [Feature Request](https://github.com/tomkeuper/BedWars2023/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=)
+
+:::
+
+BedWars2023 has a lot of different events examples of these events are: 
+- **Gameplay events**: EggBridgeBuild, GameEnd, GeneratorDrop
+- **Player events**: PlayerAfk, PlayerBaseEnter, PlayerKill
+- **Server events**: ArenaDisable, ArenaSpectate, SetupSessionStart
+- **Shop events**: ShopBuy, ShopOpen
+- **Spectator events**: SpectatorFirstPersonEnter, SpectatorTeleportToPlayer
+- **Team events**: TeamEliminated
+- **Upgrade events**: UpgradeBuyEvent 
+
+:::tip
+
+For a full list of events make sure to check the [JavaDocs](https://javadocs.tomkeuper.com/BedWars2023)
+
+:::
+
+### Examples
 ```java
 @EventHandler
-public void onEnemyEnter(EnemyBaseEnterEvent e) {
+public void onEnemyEnter(PlayerBaseEnterEvent e) {
   //stuff
 }
 

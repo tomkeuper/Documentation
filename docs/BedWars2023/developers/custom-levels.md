@@ -3,10 +3,10 @@ sidebar_label: Custom Levels
 title: Custom Levels
 sidebar_position: 5.5
 ---
-Developers can create their own "Player Level Manager" by implementing the `com.andrei1058.bedwars.api.levels.Level` interface.
+Developers can create their own "Player Level Manager" by implementing the `com.tomkeuper.bedwars.api.levels.Level` interface.
 Those methods are used by the plugin to display the player level in the scoreboard etc.
 
-**How to create**
+### How to create
 ```java
 public class CustomLevelsManager implements Level {
 @Override
@@ -46,8 +46,8 @@ public class CustomLevelsManager implements Level {
 }
 ```
 
-**How to register**
-This will safe-disable the BedWars1058 internal Levels System and will register yours.
+### How to register
+This will safe-disable the BedWars2023 internal Levels System and will register yours.
 ```java
 BedWars bedwarsAPI = Bukkit.getServicesManager().getRegistration(BedWars .class).getProvider();
 bedwarsAPI.setLevelAdapter(new CustomLevelsManager());

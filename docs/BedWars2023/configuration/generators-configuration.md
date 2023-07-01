@@ -7,7 +7,7 @@ sidebar_position: 3.4
 ```yaml
 #Under the "Default" configuration section there is the configuration for all the arena groups
 #without a specified configuration. If you don't know what an arena group is you should read
-#about them here: https://docs.tomkeuper.com/docs/BedWars1058/setup/arena-groups
+#about them here: https://docs.tomkeuper.com/docs/BedWars2023/setup/arena-groups
 Default:
   #This contains the default settings for the iron generator on a team base
   #A player can change those values for his team buying upgrades

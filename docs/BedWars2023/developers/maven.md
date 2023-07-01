@@ -5,7 +5,7 @@ sidebar_position: 5.2
 ---
 [![Version](https://img.shields.io/nexus/releases/com.tomkeuper.bedwars/bedwars-api?server=https%3A%2F%2Frepo.tomkeuper.com)](https://repo.tomkeuper.com)
 
-##### Repository
+#### Repository
 
 ```xml
 <repositories>
@@ -23,7 +23,7 @@ sidebar_position: 5.2
 </repositories>
 ```
 
-##### Dependency
+#### Dependency
 
 ```xml
 <!--BedWars2023 API-->

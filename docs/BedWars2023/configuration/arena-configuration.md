@@ -9,8 +9,8 @@ sidebar_position: 3.3
 #### Config Explanation
 ```yaml
 #This is the arena group.
-#By default the group value is "Default"
-#Read here about arena groups: https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups
+#By default, the group value is "Default"
+#Read here about arena groups: https://docs.tomkeuper.com/docs/BedWars2023/setup/arena-groups
 group: Solo
 
 #This is the name displayed on the scoreboard, in the arena gui.. etc.
@@ -24,7 +24,7 @@ minPlayers: 2
 #This is the maximum team size
 maxInTeam: 1
 
-#Set this to false to block players from spectating arenas
+#Set this to 'false' to block players from spectating arenas
 allowSpectate: true
 
 #This is the team spawn protection in blocks

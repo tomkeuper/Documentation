@@ -3,7 +3,7 @@ sidebar_label: Custom Ore Generators
 title: Creating Custom Ore Generators
 sidebar_position: 5.6
 ---
-How to create a custom ore generator.
+There are currently 5 types of generators, Iron, Gold, Diamond, Emerald and Custom. Addons can use the Custom generator type to register custom generators by implementing the `IGenerator` interface.
 
 ```java
 public class ExampleGenerator implements IGenerator {
