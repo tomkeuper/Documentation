@@ -1,0 +1,35 @@
+name: Deploy production documentation
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          node-version: '18'
+          cache: yarn
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Build website files
+        run: yarn build
+  deploy:
+    needs: [ package ]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Copy to production server
+        uses: wangyucode/sftp-upload-action@v2.0.2
+        with:
+          host: ${{ secrets.PROD_HOST }}
+          username: ${{ secrets.PROD_USER }}
+          password: ${{ secrets.PROD_PASS }}
+          compress: true
+          forceUpload: true
+          localDir: /build/
+          remoteDir: './'
