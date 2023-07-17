@@ -20,7 +20,9 @@ jobs:
       - name: list files
         run: ls -l
       - name: Print certificate
-        run: echo "$ {{ env.PROD_HOST }}"
+        run: echo "$ {{ vars.PROD_HOST }}"
+      - name: Print certificate
+        run: echo "${{ secrets.PROD_USER }} $ {{ secrets.PROD_USER }}"
       - name: Copy to production server
         uses: wangyucode/sftp-upload-action@v2.0.2
         with:
