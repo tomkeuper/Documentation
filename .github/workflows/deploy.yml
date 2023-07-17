@@ -31,4 +31,4 @@ jobs:
           password: ${{ secrets.PROD_PASS }}
           localDir: 'build'
           remoteDir: '/var/www/tomkeuper.com/wiki'
-          removeExtraFilesOnServer: false
+          removeExtraFilesOnServer: true
