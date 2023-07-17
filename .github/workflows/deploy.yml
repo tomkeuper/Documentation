@@ -22,7 +22,7 @@ jobs:
       - name: Copy to production server
         uses: wangyucode/sftp-upload-action@v2.0.2
         with:
-          host: ${{ secrets.PROD_HOST }}
+          host: ${{ env.PROD_HOST }}
           username: ${{ secrets.PROD_USER }}
           password: ${{ secrets.PROD_PASS }}
           compress: true
