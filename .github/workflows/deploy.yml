@@ -28,4 +28,3 @@ jobs:
           localDir: 'build'
           remoteDir: '/var/www/tomkeuper.com/wiki'
           removeExtraFilesOnServer: true
-          forceUpload: true
