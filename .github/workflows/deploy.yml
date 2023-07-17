@@ -29,6 +29,6 @@ jobs:
           host: ${{ vars.PROD_HOST }}
           username: ${{ secrets.PROD_USER }}
           password: ${{ secrets.PROD_PASS }}
-          forceUpload: true
           localDir: 'build'
           remoteDir: '/var/www/tomkeuper.com/wiki'
+          removeExtraFilesOnServer: false
