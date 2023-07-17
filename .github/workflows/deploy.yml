@@ -32,4 +32,4 @@ jobs:
           compress: true
           forceUpload: true
           localDir: 'build/'
-          remoteDir: './'
+          remoteDir: '/var/www/tomkeuper.com/wiki'
