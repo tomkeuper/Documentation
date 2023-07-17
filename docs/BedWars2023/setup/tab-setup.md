@@ -31,11 +31,11 @@ Enough with the limitations, lets discus the options! To make good use of TAB th
 - `scoreboard` -> `enabled: true` enable the scoreboard, the plugin won't start without.
 - `tablist-name-formatting` -> `align-tabsuffix-on-the-right: true` show health on the right,
   - disable if using yellow number.
-  - This value can be anything you want. For details on how to configure: [configure tab health]()
+  - This value can be anything you want. For details on how to configure: [configure tab health](../configuration/tab-configuration.md)
 - `yellow-number-in-tablist` -> `enabled: false` to prevent double values. This can be set to %health% but then make sure to remove the %health% placeholder from BedWars lang suffix
   - If you don't want to show health in tab, leave it `false`.
 - `unlimited-nametag-mode` -> `enabled: true` 
-  - When using ServerType: BUNGEE it is recommended that poeple to use the native health objective. But make sure you understand the limitations. The only drawback to this is that the health will also be displayed while in the waiting lobby. Read more [here](): 
+  - When using ServerType: BUNGEE it is recommended that people use the native health objective. But make sure you understand the limitations. The only drawback to this is that the health will also be displayed while in the waiting lobby. Read more [here](../configuration/tab-configuration.md): 
 
 
 #### Scoreboard
