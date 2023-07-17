@@ -27,5 +27,5 @@ jobs:
           password: ${{ secrets.PROD_PASS }}
           compress: true
           forceUpload: true
-          localDir: /build/
+          localDir: 'build/'
           remoteDir: './'
