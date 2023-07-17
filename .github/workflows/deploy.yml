@@ -20,13 +20,13 @@ jobs:
       - name: list files
         run: ls -l
       - name: Print certificate
-        run: echo "$ {{ vars.PROD_HOST }}"
+        run: echo "${{ vars.PROD_HOST }}"
       - name: Print certificate
         run: echo "${{ secrets.PROD_USER }} $ {{ secrets.PROD_USER }}"
       - name: Copy to production server
         uses: wangyucode/sftp-upload-action@v2.0.2
         with:
-          host: 'ftp.fyreblox.com'
+          host: ${{ vars.PROD_HOST }}
           username: ${{ secrets.PROD_USER }}
           password: ${{ secrets.PROD_PASS }}
           compress: true
