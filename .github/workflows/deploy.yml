@@ -5,7 +5,7 @@ on:
     branches: [master]
 
 jobs:
-  package:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -17,12 +17,6 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Build website files
         run: yarn build
-  deploy:
-    needs: [ package ]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
       - name: Copy to production server
         uses: wangyucode/sftp-upload-action@v2.0.2
         with:
