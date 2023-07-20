@@ -23,6 +23,7 @@ public class CustomEconomyManager implements IEconomy {
     @Override
     public void giveMoney(Player p, double money) {
         // Give the money amount to the player
+        // When using this method we suggest calling the PlayerMoneyGainEvent event
     }
 
     @Override
