@@ -9,7 +9,8 @@ Those methods are used by the plugin to display the player level in the scoreboa
 ### How to create
 ```java
 public class CustomLevelsManager implements Level {
-@Override
+    
+    @Override
     public String getLevel(Player p) {
         return PlayerLevel.getLevelByPlayer(p.getUniqueId()).getLevelName();
     }
@@ -43,6 +44,7 @@ public class CustomLevelsManager implements Level {
     public int getRequiredXp(Player p) {
         return PlayerLevel.getLevelByPlayer(p.getUniqueId()).getNextLevelCost();
     }
+    
 }
 ```
 
