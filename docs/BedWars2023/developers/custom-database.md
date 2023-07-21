@@ -1,6 +1,6 @@
 ---
 sidebar_label: Custom Database
-title: Custom Levels
+title: Custom Database
 sidebar_position: 5.5
 ---
 Developers can create their own "Database Manager" by implementing the `com.tomkeuper.bedwars.api.levels.IDatabase` interface.

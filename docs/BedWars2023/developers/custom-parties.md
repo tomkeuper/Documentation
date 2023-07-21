@@ -1,6 +1,6 @@
 ---
 sidebar_label: Custom Parties
-title: Custom Levels
+title: Custom Parties
 sidebar_position: 5.5
 ---
 Developers can create their own "Party Manager" by implementing the `com.tomkeuper.bedwars.api.levels.Party` interface.
