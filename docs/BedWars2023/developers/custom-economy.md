@@ -1,9 +1,9 @@
 ---
 sidebar_label: Custom Economy
-title: Custom Levels
+title: Custom Economy
 sidebar_position: 5.5
 ---
-Developers can create their own "Player Economy Manager" by implementing the `com.tomkeuper.bedwars.api.levels.IEconomy` interface.
+Developers can create their own "Player Economy Manager" by implementing the `com.tomkeuper.bedwars.api.economy.IEconomy` interface.
 Those methods are used by the plugin to display the player money in the scoreboard etc.
 
 ### How to create
