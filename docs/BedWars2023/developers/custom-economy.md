@@ -23,7 +23,8 @@ public class CustomEconomyManager implements IEconomy {
     @Override
     public void giveMoney(Player p, double money) {
         // Give the money amount to the player
-        // When using this method we suggest calling the PlayerMoneyGainEvent event
+        // When using this method within your own addon, it is suggested that you call
+        // the PlayerMoneyGainEvent event immediately after using this method.
     }
 
     @Override
