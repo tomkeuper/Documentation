@@ -59,6 +59,12 @@ If you want to create an addon for BedWars2023 make sure to use the following st
         }
     }
     ```
+   
+4. In your main class, after getting the API Methods, you need to register your addon.
+```java
+BedWars bedwarsAPI = Bukkit.getServicesManager().getRegistration(BedWars.class).getProvider();
+bedwarsAPI.getAddonsUtil.registerAddon(this);
+```
 
 ## Getting API Methods
 Initializing the API:
