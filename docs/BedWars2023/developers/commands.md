@@ -85,7 +85,7 @@ All you have to do is to initialize the class.
         }
         
         //Your command is: /bw tutorial apple
-        //com.andrei1058.bedwars.commands.main.MainCommand
+        //com.tomkeuper.bedwars.commands.main.MainCommand
         BedWars bedwarsAPI = Bukkit.getServicesManager().getRegistration(BedWars.class).getProvider();
         new TutorialCommand(bedwarsAPI.getBedWarsCommand(), "tutorial");
     }
