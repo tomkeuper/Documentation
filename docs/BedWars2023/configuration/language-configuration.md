@@ -3,8 +3,9 @@ sidebar_label: Language Config
 title: Language Configuration
 sidebar_position: 3.99
 ---
+## Scoreboard Configuration
 ### Creating custom scoreboards
-You can create custom scoreboards per [Arena Groups](../setup/arena-groups). So, let's suppose you have an arena group called `4v4v4v4`, then you can create a custom scoreboard for the arenas using this arena group. You can edit the scoreboard for each arena state (waiting, starting, playing). So let's suppose you want to have a custom playing scoreboard. Just go in the language file, under the `scoreboard` section and add yur arena group name and under it, the arena status name:
+You can create custom scoreboards per [Arena Groups](../setup/arena-groups). So, let's suppose you have an arena group called `4v4v4v4`, then you can create a custom scoreboard for the arenas using this arena group. You can edit the scoreboard for each arena state (waiting, starting, playing). So let's suppose you want to have a custom playing scoreboard. Just go in the language file, under the `scoreboard` section and add your arena group name and under it, the arena status name:
 ```yaml
 scoreboard:
   4v4v4v4:
@@ -17,10 +18,14 @@ scoreboard:
     - "%bw_team_3%"
     - "%bw_team_4%"
     - ""
-    - "&6{server_ip}"
+    - "&6%bw_server_ip%"
 ```
 
-### Player list configuration
+### Scoreboard team format
+You can change the team format by editing the `format-sb-team-generic` path in the language file. By default, it is set to: `%bw_team_color%%bw_team_letter%&f %bw_team_name%: %bw_team_status%`. The plugin will automatically update the placeholders for the team color, letter, name and status. 
+
+## Tab List Configuration
+### Multiple line formatting
 It is possible to add multiple lines to the header and footer of the player list by adding more lines as shown below.
 Make sure to add `|-` on the first row.
 ```yaml
@@ -40,6 +45,8 @@ format-sb-tab-header:
 ![scoreboard_example_multiline.png](/uploads/scoreboard_example_multiline.png)
 All placeholders that are listed under [Global Placeholders](language-configuration#global-placeholders) are supported.
 
+### Tab List animations.
+
 ### Scoreboard placeholders
 
 #### Team placeholers:
@@ -50,7 +57,7 @@ Using team placeholders is easy. Let's suppose that you have a team called `Brea
 
 An easier alternative is using `{team}` placeholder which will take the team format from the message at path: `format-sb-team-generic` (by default {TeamColor}{TeamLetter}&f {TeamName}: {TeamStatus}). This placeholder can be used in multiple lines and it will iterate the team list of the arena and will asign it a team. When the placeholder is used more than team list size the scoreboard line with {team} in it will be skipped.
 
-##### Upgrade placeholders:
+#### Upgrade placeholders:
 Upgrades are divided in tiers each upgrade will have a corresponding line containing the cost and currency and the tier color, this makes the tier show up as purchased or not. 
 All variables mentioned below are gathered from `upgrades2.yml`.
 - `{tier_x_color}` - changes the color based on purchased or not.
@@ -59,7 +66,7 @@ All variables mentioned below are gathered from `upgrades2.yml`.
 
 When adding a tier to `upgrades2.yml` you should add another line in each of the language files used. and replace the `x` with the corresponding tier number.
 
-##### Global placeholders:
+#### Global placeholders:
 - `{date}` - shows the date with the player's date format taken from his language file.
 - `{level}` - shows the player level. Does not auto-refresh.
 - `{levelUnformatted}` - shows the plain player level without formatting. Does not auto-refresh.
@@ -80,7 +87,7 @@ When adding a tier to `upgrades2.yml` you should add another line in each of the
 - `{server}` - shows the server ID taken from config.yml.
 - `{version}` - shows the plugin version.
 
-##### In Game placeholders:
+#### In Game placeholders:
 - `{deaths}` - shows the player's deaths in current game (when used in game).
 - `{kills}` - shows the player's kills in current game (when used in game).
 - `{finalKills}` - show player's final kills in current game (when used in game).
@@ -95,7 +102,7 @@ When adding a tier to `upgrades2.yml` you should add another line in each of the
 - `{map_name}` - the map you're playing on (for arena display name use {map}).
 - `{team} and {teamColor}` - shows the player team and its corresponding colors on the teleporter.
 
-##### Kill/Bed-Destroy Message placeholders:
+#### Kill/Bed-Destroy Message placeholders:
 - `{PlayerColor}` - shows the player's team color.
 - `{PlayerName}` - shows the name of the player .
 - `{PlayerNameUnformatted}` - shows the name of the player without formatting.
