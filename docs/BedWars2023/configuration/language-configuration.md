@@ -10,12 +10,12 @@ scoreboard:
   4v4v4v4:
     playing:
     - "&f&lBED WARS"
-    - "&7{date}"
+    - "&7%bw_date%"
     - ""
-    - "{TeamRedColor}&lB&f {TeamRedName}&f: {TeamRedStatus}"
-    - "{TeamBlueColor}&lB&f {TeamBlueName}&f: {TeamBlueStatus}"
-    - "{TeamGreenColor}&lG&f {TeamGreenName}&f: {TeamGreenStatus}"
-    - "{TeamYellowColor}&lY &f{TeamYellowName}&f: {TeamYellowStatus}"
+    - "%bw_team_1%"
+    - "%bw_team_2%"
+    - "%bw_team_3%"
+    - "%bw_team_4%"
     - ""
     - "&6{server_ip}"
 ```
@@ -36,6 +36,7 @@ format-sb-tab-header:
     down
     And you dont need to use quotes like this: ""
 ```
+
 ![scoreboard_example_multiline.png](/uploads/scoreboard_example_multiline.png)
 All placeholders that are listed under [Global Placeholders](language-configuration#global-placeholders) are supported.
 
