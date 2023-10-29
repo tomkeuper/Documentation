@@ -10,7 +10,7 @@ If you are looking for an event that doesn't exist yet, make sure to create a [F
 
 :::
 
-BedWars2023 has a lot of different events examples of these events are: 
+BedWars2023 has a lot of different events, examples of these events are: 
 - **Gameplay events**: EggBridgeBuild, GameEnd, GeneratorDrop
 - **Player events**: PlayerAfk, PlayerBaseEnter, PlayerKill
 - **Server events**: ArenaDisable, ArenaSpectate, SetupSessionStart
@@ -21,7 +21,7 @@ BedWars2023 has a lot of different events examples of these events are:
 
 :::tip
 
-For a full list of events make sure to check the [JavaDocs](https://javadocs.tomkeuper.com/BedWars2023)
+For a full list of events make sure to check the [JavaDocs](https://javadocs.tomkeuper.com/)
 
 :::
 
