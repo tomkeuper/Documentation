@@ -53,9 +53,9 @@ To add animations to your tab list you will have to add the animation to the `an
 format-sb-tab-header:
   waiting: |-
     %animation:Welcome%
-    %animation:ServerName%
+    %animation:TestAnimation%
     %animation:Rainbow%
-    %animation:MyAnimation1%
+    %animation:Scroll%
 ```
 ![Scoreboard Animations](/uploads/scoreboard_animated.gif)
 
