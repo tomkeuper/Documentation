@@ -24,41 +24,6 @@ scoreboard:
 ### Scoreboard team format
 You can change the team format by editing the `format-sb-team-generic` path in the language file. By default, it is set to: `%bw_team_color%%bw_team_letter%&f %bw_team_name%: %bw_team_status%`. The plugin will automatically update the placeholders for the team color, letter, name and status. 
 
-## Tab List Configuration
-### Multiple line formatting
-It is possible to add multiple lines to the header and footer of the player list by adding more lines as shown below.
-Make sure to add `|-` on the first row.
-```yaml
-format-sb-tab-header:
-  lobby: |-
-    just put anything.
-    &bplaying on: &a{serverIp}
-    it
-    can
-    go
-    quite
-    far 
-    down
-    And you dont need to use quotes like this: ""
-```
-
-![Multiline Scoreboard example](/uploads/scoreboard_example_multiline.png)
-
-All placeholders that are listed under [Global Placeholders](#global-placeholders) are supported.
-
-### Tab List animations.
-Scoreboard animations use the animations feature build into the TAB plugin. You can find more information about this feature [here](https://github.com/NEZNAMY/TAB/wiki/Animations)
-To add animations to your tab list you will have to add the animation to the `animations.yml` file, found in the TAB config folder. After this you can use the animation in the language file by adding the animation name to the `format-sb-tab-header` or `format-sb-tab-footer` path. You can also add multiple animations to the header or footer by adding more animations as shown below. (Make sure to add `|-` on the first row.)
-```yaml
-format-sb-tab-header:
-  waiting: |-
-    %animation:Welcome%
-    %animation:TestAnimation%
-    %animation:Rainbow%
-    %animation:Scroll%
-```
-![Scoreboard Animations](/uploads/scoreboard_animated.gif)
-
 ### Scoreboard placeholders
 
 #### Team placeholders:
