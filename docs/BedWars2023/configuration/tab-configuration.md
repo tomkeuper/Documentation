@@ -56,7 +56,7 @@ All placeholders that are listed under [Global Placeholders](#global-placeholder
 
 :::
 
-### Tab List animations.
+### Tab List animations
 Scoreboard animations use the animations feature build into the TAB plugin. You can find more information about this feature [here](https://github.com/NEZNAMY/TAB/wiki/Animations)
 To add animations to your tab list you will have to add the animation to the `animations.yml` file, found in the TAB config folder. After this you can use the animation in the language file by adding the animation name to the `format-sb-tab-header` or `format-sb-tab-footer` path. You can also add multiple animations to the header or footer by adding more animations as shown below. (Make sure to add `|-` on the first row.)
 ```yaml
