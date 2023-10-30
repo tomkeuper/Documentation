@@ -75,53 +75,52 @@ All variables mentioned below are gathered from `upgrades.yml`.
 - `{tier_x_cost}` - shows the cost of the upgrade.
 - `{tier_x_currency}` - shows the currency used to buy the upgrade.
 
-When adding a tier to `upgrades2.yml` you should add another line in each of the language files used. and replace the `x` with the corresponding tier number.
+When adding a tier to `upgrades.yml` you should add another line in each of the language files used. and replace the `x` with the corresponding tier number.
 
 #### Global placeholders:
-- `{date}` - shows the date with the player's date format taken from his language file.
-- `{level}` - shows the player level. Does not auto-refresh.
-- `{levelUnformatted}` - shows the plain player level without formatting. Does not auto-refresh.
-- `{currentXp}` - shows the player's current xp. Does not auto-refresh.
-- `{requiredXp}` - shows the required xp to rankup. Does not auto-refresh.
-- `{progress}` - shows the progress bar. Does not auto-refresh.
-- `{losses}` - shows the player's losses. Does not auto-refresh.
-- `{kills}` - shows the player's total kills (when not used in game). Does not auto-refresh.
-- `{player}` - shows the player name.
-- `{deaths}` - shows the player's total deaths (when not used in game). Does not auto-refresh.
-- `{money}` - shows the player's money (Vault).
-- `{finalKills}` - show player's total final kills (when not used in game). Does not auto-refresh.
-- `{finalDeaths}` - show player's total final deaths (when not used in game). Does not auto-refresh.
-- `{bedsDestroyed}` - show total beds destroyed by player (when not used in game). Does not auto-refresh.
-- `{wins}` - show the number of games won by player.
-- `{on}` - show the number of players on the server (when not used in game).
-- `{serverIp}` - shows the server IP taken from config.yml.
-- `{server}` - shows the server ID taken from config.yml.
-- `{version}` - shows the plugin version.
+- `%bw_date%` - shows the date with the player's date format taken from his language file.
+- `%bw_level%` - shows the player level. Does not auto-refresh.
+- `%bw_level_unformatted%` - shows the plain player level without formatting. Does not auto-refresh.
+- `%bw_current_xp%` - shows the player's current xp. Does not auto-refresh.
+- `%bw_required_xp%` - shows the required xp to rankup. Does not auto-refresh.
+- `%bw_progress%` - shows the progress bar. Does not auto-refresh.
+- `%bw_losses%` - shows the player's losses. Does not auto-refresh.
+- `%bw_kills%` - shows the player's total kills (when not used in game). Does not auto-refresh.
+- `%bw_player%` - shows the player name.
+- `%bw_deaths%` - shows the player's total deaths (when not used in game). Does not auto-refresh.
+- `%bw_money%` - shows the player's money (Vault).
+- `%bw_final_kills%` - show player's total final kills (when not used in game). Does not auto-refresh.
+- `%bw_final_deaths%` - show player's total final deaths (when not used in game). Does not auto-refresh.
+- `%bw_beds%` - show total beds destroyed by player (when not used in game). Does not auto-refresh.
+- `%bw_wins%` - show the number of games won by player.
+- `%bw_on%` - show the number of players on the server (when not used in game).
+- `%bw_server_ip%` - shows the server IP taken from config.yml.
+- `%bw_server_id%` - shows the server ID taken from config.yml.
+- `%bw_version%` - shows the plugin version.
 
 #### In Game placeholders:
-- `{deaths}` - shows the player's deaths in current game (when used in game).
-- `{kills}` - shows the player's kills in current game (when used in game).
-- `{finalKills}` - show player's final kills in current game (when used in game).
-- `{beds}` - show beds destroyed by player in current game (when used in game).
-- `{on}` - show the number of players in current game (when used in game).
-- `{map}` - shows the map name of the current arena.
-- `{max}` - shows the slots of the current arena.
-- `{time}` - shows the time remaining before the arena starts.
-- `{nextEvent}` - shows the Next Event of the game (Generator upgrades, Beds destroy etc.).
-- `{time}` - shows the time when the Next Event will happen.
-- `{group}` - shows the arena group in the waiting lobby.
-- `{map_name}` - the map you're playing on (for arena display name use {map}).
-- `{team} and {teamColor}` - shows the player team and its corresponding colors on the teleporter.
+- `%bw_deaths%` - shows the player's deaths in current game (when used in game).
+- `%bw_kills%` - shows the player's kills in current game (when used in game).
+- `%bw_final_kills%` - show player's final kills in current game (when used in game).
+- `%bw_beds%` - show beds destroyed by player in current game (when used in game).
+- `%bw_on%` - show the number of players in current game (when used in game).
+- `%bw_map%` - shows the map name of the current arena.
+- `%bw_max%` - shows the slots of the current arena.
+- `%bw_time%` - shows the time remaining before the arena starts.
+- `%bw_next_event%` - shows the Next Event of the game (Generator upgrades, Beds destroy etc.).
+- `%bw_time%` - shows the time when the Next Event will happen.
+- `%bw_group%` - shows the arena group in the waiting lobby.
+- `%bw_map_name%` - the map you're playing on (for arena display name use {map%).
+- `%bw_team% and %bw_team_color%` - shows the player team and its corresponding colors on the teleporter.
 
 #### Kill/Bed-Destroy Message placeholders:
-- `{PlayerColor}` - shows the player's team color.
-- `{PlayerName}` - shows the name of the player .
-- `{PlayerNameUnformatted}` - shows the name of the player without formatting.
-- `{KillerColor}` - shows the color of the killer's team.
-- `{PlayerTeamName}` - shows the name of the player's team.
-- `{KillerName}` - shows the name of the killer.
-- `{KillerNameUnformatted}` - shows the name of the killer without formatting.
-- `{KillerTeamName}` - shows the name of the killer's team.
+- `%bw_player_color%` - shows the player's team color.
+- `%bw_player%` - shows the name of the player .
+- `%bw_playername%` - shows the name of the player without formatting.
+- `%bw_killer_color%` - shows the color of the killer's team.
+- `%bw_killer_name%` - shows the name of the killer.
+- `%bw_Killer_playername%` - shows the name of the killer without formatting.
+- `%bw_killer_team_name%` - shows the name of the killer's team.
 
 
 ### Animations and timers
@@ -130,6 +129,6 @@ For more configuration options check the [config.yml](main-configuration) wiki.
 
 Custom title/ sub-title for arena countdown
 ---------
-You can add a custom title for certain second by adding this to the language file `arena-start-countdown-title-[second]` where `[second]` can be 4 etc. For adding a custom subTitle use this path: `arena-start-countdown-subtitle-[second]`. Available placeholder: `{second}`.
+You can add a custom title for certain second by adding this to the language file `arena-start-countdown-title-[second]` where `[second]` can be 4 etc. For adding a custom subTitle use this path: `arena-start-countdown-subtitle-[second]`. Available placeholder: `%bw_seconds%`.
 
 Countdown titles and subtitles are shown when the current second is `currentSecond % 10 == 0 || currentSecond <= 5`.
