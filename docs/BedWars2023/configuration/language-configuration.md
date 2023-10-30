@@ -44,7 +44,7 @@ format-sb-tab-header:
 
 ![Multiline Scoreboard example](/uploads/scoreboard_example_multiline.png)
 
-All placeholders that are listed under [Global Placeholders](language-configuration#global-placeholders) are supported.
+All placeholders that are listed under [Global Placeholders](#global-placeholders) are supported.
 
 ### Tab List animations.
 Scoreboard animations use the animations feature build into the TAB plugin. You can find more information about this feature [here](https://github.com/NEZNAMY/TAB/wiki/Animations)
