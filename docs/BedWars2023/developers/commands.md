@@ -78,8 +78,8 @@ All you have to do is to initialize the class.
     @Override
     public void onEnable() {
         //Disable if pl not found
-        if (Bukkit.getPluginManager().isPluginEnabled("BedWars1058")) {
-            getLogger().severe("BedWars1058 was not found. Disabling...");
+        if (Bukkit.getPluginManager().isPluginEnabled("BedWars2023")) {
+            getLogger().severe("BedWars2023 was not found. Disabling...");
             setEnabled(false);
             return;
         }
