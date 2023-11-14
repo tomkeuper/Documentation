@@ -13,6 +13,18 @@ If you need help with using [PlaceholderAPI](https://www.spigotmc.org/resources/
 Get the player level. FORMATTED.
 
 Placeholder: `%bw2023_player_level%`
+## Player Level Trimmed
+Get the player level. FORMATTED.
+
+Placeholder: `%bw2023_player_level%`
+## Player Level
+Get the player level. FORMATTED.
+
+Placeholder: `%bw2023_player_level%`
+## Player Level
+Get the player level. FORMATTED.
+
+Placeholder: `%bw2023_player_level%`
 
 ## Player Level Raw
 Get the player level NUMBER.
