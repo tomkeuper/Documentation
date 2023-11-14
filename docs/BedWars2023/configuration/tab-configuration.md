@@ -38,7 +38,7 @@ Make sure to add `|-` on the first row.
 format-sb-tab-header:
   lobby: |-
     just put anything.
-    &bplaying on: &a{serverIp}
+    &bplaying on: &a%bw_server_ip%
     it
     can
     go
