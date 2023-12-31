@@ -169,7 +169,7 @@ blocks-category:
 
 ### How to create items like the armor category
 
-BedWars1058 provides a configuration called `weight` that cand be added under:
+BedWars2023 provides a configuration called `weight` that can be added under:
 ```yaml
 namehere-category:
     category-content:

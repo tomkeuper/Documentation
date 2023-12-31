@@ -72,7 +72,7 @@ BedWars bedwarsAPI = Bukkit.getServicesManager().getRegistration(BedWars.class).
 ```
 
 ## JavaDoc
-[Click here](https://javadocs.tomkeuper.com/BedWars2023/) for JavaDocs.
+[Click here](https://javadocs.tomkeuper.com/) for JavaDocs.
 
 ## Configuration
 If you want to create a config file for your add-on, you should use the build in config manager and create it in `plugins/BedWars2023/Addons/{addonName}/config.yml`.

@@ -66,6 +66,6 @@ sidebar_position: 3.1
 |----------------|:-----------------------------------------------------:|----------------:|
 | Vip Kick       | Join a full arena by kicking a random player from it. |          bw.vip |
 | Chat Color     |             Allows to use colors on chat.             |    bw.chatcolor |
-| Cmd Bypass     |    Allows to use non whitelitest commands in game.    |   bw.cmd.bypass |
+| Cmd Bypass     |    Allows to use non whitelisted commands in game.    |   bw.cmd.bypass |
 | Shout Cooldown |                 Skip shout cooldown.                  | bw.shout.bypass |
 | Setup join     |    Join a BUNGEE mode (autoscale) server directly.    |        bw.setup |

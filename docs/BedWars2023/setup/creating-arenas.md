@@ -19,7 +19,7 @@ sidebar_position: 2.2
 8. Set the upgrades NPC for each island using `bw setUpgrade` without any team name provided because the plugin will auto-detect it.
 9. Now it's time to set iron and gold generators for each team. If you want to set the iron and gold generator at the same location go on each island and type `bw addGenerator` without any others arguments. If you want to set them at different locations, just provide the generator name `bw setGenerator iron/ gold`.
 10. Now it's time to set the diamond and emerald generators. Use `bw addGenerator diamond` for creating a new diamond generator and `bw addGenerator emerald` for adding a new emerald generator.
-11. One more command and it's done! Use `bw save` to save the world and exiti the setup mode.
+11. One more command and it's done! Use `bw save` to save the world and exit the setup mode.
 12. If you want to play on your new map enable it using: `bw enableArena <mapName>`
 
 ## Important

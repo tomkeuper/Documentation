@@ -3,7 +3,7 @@ sidebar_label: Citizens Support
 title: Citizens Support
 sidebar_position: 3.4
 ---
-**BedWars1058** is providing [Citizens](https://www.spigotmc.org/resources/citizens.13811/) support since version 0.6.4beta (API 8). By installing it on your server you will have a new sub-command to the bedwars plugin, `/bw npc` for creating/ removing join-NPCs. Make sure you have instaled the correct version of Citizens compatible with your server in order to have this command listed at `/bw`.
+**BedWars2023** is adds [Citizens](https://www.spigotmc.org/resources/citizens.13811/) support by installing it on your server, after this you will have access to the sub-command `/bw npc` to create or remove join-NPCs. Make sure you have installed the correct version of Citizens compatible with your server in order to have this command listed in `/bw`.
 
 # Video tutorial
 
@@ -12,10 +12,10 @@ sidebar_position: 3.4
 # Creating a NPC
 Join your server and use the following command `/bw npc create <skinName> <groupName> <Line1>\n<Line2>`
 
-Availalble placeholders: `{players}` - shows the players amount on this [arena group](https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups/).
+Available placeholders: `%bw_players%` - shows the players amount on this [Arena Group](../setup/arena-groups).
 
-**Example:** `/bw npc create andrei1058 Solo &9&lSolo Games\n{players} playing`
-![2018-09-02_03.07.28](/uploads/2018-09-02_03.07.28.png)
+**Example:** `/bw npc create MrCeasar Solo &9&lSolo Games\n%bw_players% playing`
+![Solo join npc demo](/uploads/2018-09-02_03.07.28.png)
 
 # Removing a NPC
 In order to remove a join-NPCs, just look at it and type `/bw npc remove`. You can also remove it using the Citizens command: `/npc remove`.
