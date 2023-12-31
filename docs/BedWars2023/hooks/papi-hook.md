@@ -140,14 +140,14 @@ Placeholder: `%bw1058_arena_status_[arenaName]%`
 ## Arena Player Count
 This returns arena player count. Since BedWars1058 v0.8.5beta. Replace `[arenaName]` with the arena name.
 
-**It also supports + operator:** %bw1058_arena_count_arena1+arena2%
+**It also supports + operator:** `%bw1058_arena_count_arena1+arena2%`
 
 Placeholder: `%bw1058_arena_count_[arenaName]%`
 
 ## Arena Group Count
 Get the total players amount in a group. Replace `[groupName]` with its name.
 
-**It also supports + operator:** %bw1058_group_count_group1+group2%
+**It also supports + operator:** `%bw1058_group_count_group1+group2%`
 
 Placeholder: `%bw1058_group_count_[groupName]%`
 
@@ -165,3 +165,173 @@ Placeholder: `%bw1058_arena_group_[arena]%`
 Get game elapsed time.
 
 Placeholder: `%bw1058_elapsed_time%`
+
+## Team Letter
+Returns the first letter of the display name of the team the player is in.
+
+Placeholder: `%bw2023_team_letter%`
+
+## Team Color
+Returns the color of the team the player is in.
+
+Placeholder: `%bw2023_team_color%`
+
+## Team Status
+Returns the status (✓ or ×) of the team the player is in.
+
+Placeholder: `%bw2023_team_status%`
+
+## Team Players Amount
+Returns the number of players in the team the player is in.
+
+Placeholder: `%bw2023_team_players_amount%`
+
+## Team Players
+Returns the players in the team the player is in, with names separated by ", ".
+
+Placeholder: `%bw2023_team_players%`
+
+## Team Letter (Specified)
+Returns the first letter of the display name of the specified team.
+
+Placeholder: `%bw2023_team_letter_[teamName]%`
+
+## Team Color (Specified)
+Returns the color of the specified team.
+
+Placeholder: `%bw2023_team_color_[teamName]%`
+
+## Team Status (Specified)
+Returns the status (✓ or ×) of the specified team.
+
+Placeholder: `%bw2023_team_status_[teamName]%`
+
+## Team Players Amount (Specified)
+Returns the number of players in the specified team.
+
+Placeholder: `%bw2023_team_players_amount_[teamName]%`
+
+## Team Players (Specified)
+Returns the players in the specified team, with names separated by ", ".
+
+Placeholder: `%bw2023_team_players_[teamName]%`
+
+## Arena Next Event Name
+Returns the name of the next event in the arena the player is in.
+
+Placeholder: `%bw2023_arena_nextevent_name%`
+
+## Arena Next Event Time
+Returns the time left until the next event in raw form as a string.
+
+Placeholder: `%bw2023_arena_nextevent_time%`
+
+## Arena Next Event Time Formatted
+Returns the time left until the next event in formatted form as a string.
+
+Placeholder: `%bw2023_arena_nextevent_time_formatted%`
+
+## Arena Name
+Returns the name of the arena the player is in.
+
+Placeholder: `%bw2023_arena_name%`
+
+## Arena Display Name
+Returns the display name of the arena the player is in.
+
+Placeholder: `%bw2023_arena_displayName%`
+
+## Arena Group
+Returns the group the arena the player is in belongs to.
+
+Placeholder: `%bw2023_arena_group%`
+
+## Arena World
+Returns the world the arena the player is in is located in.
+
+Placeholder: `%bw2023_arena_world%`
+
+## Arena Status (Player Locale)
+Returns the status of the arena in the player's chosen language.
+
+Placeholder: `%bw2023_arena_status_plocale%`
+
+## Arena Status
+Returns the status of the arena in the default language.
+
+Placeholder: `%bw2023_arena_status%`
+
+## Player Kills
+Returns the number of kills the player has in the current game.
+
+Placeholder: `%bw2023_player_kills%`
+
+## Player Kills (Final)
+Returns the number of final kills the player has in the current game.
+
+Placeholder: `%bw2023_player_kills_final%`
+
+## Player Kills (Total)
+Returns the total number of kills (regular + final) the player has in the current game.
+
+Placeholder: `%bw2023_player_kills_total%`
+
+## Player Deaths
+Returns the number of times the player has died in the current game.
+
+Placeholder: `%bw2023_player_deaths%`
+
+## Player Deaths (Final)
+Returns the number of times the player has died the final time in the current game (always <= 1).
+
+Placeholder: `%bw2023_player_deaths_final%`
+
+## Player Deaths (Total)
+Returns the total number of deaths (regular + final) the player has in the current game.
+
+Placeholder: `%bw2023_player_deaths_total%`
+
+## Player Beds
+Returns the number of beds the player has broken in the current game.
+
+Placeholder: `%bw2023_player_beds%`
+
+## Players
+Returns the players in the arena the player is in, with names separated by ", ".
+
+Placeholder: `%bw2023_players%`
+
+## Players Amount
+Returns the number of players in the arena the player is in.
+
+Placeholder: `%bw2023_players_amount%`
+
+## Party Has
+Returns "true" if the player is in a party and "false" if the player is not.
+
+Placeholder: `%bw2023_party_has%`
+
+## Party Members
+Returns the members of the party the player is in, with names separated by ", ".
+
+Placeholder: `%bw2023_party_members%`
+
+## Party Members Amount
+Returns the number of members in the party the player is in.
+
+Placeholder: `%bw2023_party_members_amount%`
+
+## Party In Yours (Specified)
+Returns "true" if the target specified is in the player's party and "false" if not.
+
+Placeholder: `%bw2023_party_in_yours_[target]%`
+
+## Party In His (Specified)
+Returns "true" if the player is in the target's party and "false" if not.
+
+Placeholder: `%bw2023_party_in_his_[target]%`
+
+## Party Is Owner
+Returns "true" if the player is the owner of their party and "false" if not.
+
+Placeholder: `%bw2023_party_is_owner%`
