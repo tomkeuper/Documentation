@@ -24,8 +24,8 @@ Placeholders that can be used on supported plugins.
 | `%bw2023_player_progress%`                | Show a player progress bar.                                                                                                             |
 | `%bw2023_player_xp_formated%`             | Show a player formatted xp.                                                                                                             |
 | `%bw2023_player_xp%`                      | Show a player xp number.                                                                                                                |
-| `%bw2023_req_xp_formatted%`               | Show a player required xp, formatted.                                                                                                   |
-| `%bw2023_req_xp%`                         | Show a player required xp number.                                                                                                       |
+| `%bw2023_player_req_xp_formatted%`        | Show a player required xp, formatted.                                                                                                   |
+| `%bw2023_player_req_xp%`                  | Show a player required xp number.                                                                                                       |
 | `%bw2023_team_letter%`                    | Returns the first letter of the display name of the team the player is in.                                                              |
 | `%bw2023_team_color%`                     | Returns the colour of the team the player is in.                                                                                        |
 | `%bw2023_team_status%`                    | Returns the status (✓, or ×) of the team the player is in.                                                                              |
