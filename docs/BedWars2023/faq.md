@@ -14,7 +14,7 @@ Make sure you have `spawn-npcs` set to `true` in `server.properties`, also if yo
 If you are not able to place blocks in some places, make sure it's not a BedWars rule. If it is normal not to be able to break, you will receive a message. In other cases you might have `spawn-protection` activated, and it won't allow you to build at the map's spawn. In this case, please set `spawn-protection` to `0` in `server.properties`. If this didn't work, please make sure you didn't set the BedWars **main lobby** in the arena world, because it will prevent players from doing pvp, build etc..
 
 ### Why can't I pvp?
-Please make sure you didn't set the BedWars **main lobby** in the arena world, because it will prevent players from doing pvp, build etc. If you're using `MultiVerse` Plugin, make sure not to have the `pvp` flag disabled, same thing if you're using `WorldGuard` Plugin (it would be better if you remove any regions from BedWars arenas). If you don't have those plugins or if it did not work, set `difficulty` higher than `0` in `server.properties` if you haven't already!
+Please make sure you didn't set the BedWars **main lobby** in the arena world, because it will prevent players from doing pvp, build etc. If you're using `MultiVerse` Plugin, make sure not to have the `pvp` flag disabled, same thing if you're using `WorldGuard` Plugin (it would be better if you remove any regions from BedWars arenas). If you don't have those plugins or if it did not work, set `difficulty` higher than `0` and `pvp` to `true` in `server.properties` if you haven't already!
 
 ### My arenas don't reset, why?
 Read about this [here](setup/creating-arenas#map-resetting-system)
