@@ -22,7 +22,7 @@ Placeholders that can be used on supported plugins.
 | `%bw2023_current_arenas%`                 | Show amount of active arenas.                                                                                                           |
 | `%bw2023_player_level%`                   | Show a player level number.                                                                                                             |
 | `%bw2023_player_progress%`                | Show a player progress bar.                                                                                                             |
-| `%bw2023_player_xp_formated%`             | Show a player formatted xp.                                                                                                             |
+| `%bw2023_player_xp_formatted%`             | Show a player formatted xp.                                                                                                             |
 | `%bw2023_player_xp%`                      | Show a player xp number.                                                                                                                |
 | `%bw2023_player_req_xp_formatted%`        | Show a player required xp, formatted.                                                                                                   |
 | `%bw2023_player_req_xp%`                  | Show a player required xp number.                                                                                                       |
