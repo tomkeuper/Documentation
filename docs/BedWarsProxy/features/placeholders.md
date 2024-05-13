@@ -21,8 +21,11 @@ Placeholders that can be used on supported plugins.
 | `%bw2023_current_online%`                 | Show amount of players in arenas.                                                                                                       |
 | `%bw2023_current_arenas%`                 | Show amount of active arenas.                                                                                                           |
 | `%bw2023_player_level%`                   | Show a player level number.                                                                                                             |
+| `%bw2023_player_level_trim%`              | Show a player level number but remove unnecessary spaces at the end                                                                     |
+| `%bw2023_player_level_strip%`             | Show a player level number but remove the bracket []                                                                                    |
+| `%bw2023_player_level_strip_trim%`        | Effect is the combination of the two placeholders above                                                                                 |
 | `%bw2023_player_progress%`                | Show a player progress bar.                                                                                                             |
-| `%bw2023_player_xp_formatted%`             | Show a player formatted xp.                                                                                                             |
+| `%bw2023_player_xp_formatted%`            | Show a player formatted xp.                                                                                                             |
 | `%bw2023_player_xp%`                      | Show a player xp number.                                                                                                                |
 | `%bw2023_player_req_xp_formatted%`        | Show a player required xp, formatted.                                                                                                   |
 | `%bw2023_player_req_xp%`                  | Show a player required xp number.                                                                                                       |
@@ -31,7 +34,7 @@ Placeholders that can be used on supported plugins.
 | `%bw2023_team_status%`                    | Returns the status (✓, or ×) of the team the player is in.                                                                              |
 | `%bw2023_team_players_amount%`            | Returns the number of players in the team.                                                                                              |
 | `%bw2023_team_players%`                   | Returns the players in the team, which the player is in, in the form of a String with names separated by ", ".                          |
-| `%bw2023_team_letter_%`                   | Returns the first letter of the display name of the teM the player specified is in.                                                     |
+| `%bw2023_team_letter_%`                   | Returns the first letter of the display name of the team the player specified is in.                                                    |
 | `%bw2023_team_color_%`                    | Returns the colour of the team the player specified is in.                                                                              |
 | `%bw2023_team_status_%`                   | Returns the status (✓, or ×) of the team the player specified is in.                                                                    |
 | `%bw2023_team_players_amount_%`           | Returns the number of players in the team the player specified is in.                                                                   |
