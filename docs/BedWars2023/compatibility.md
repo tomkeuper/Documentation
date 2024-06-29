@@ -3,10 +3,10 @@ sidebar_label: Compatibility
 sidebar_position: 1.3
 ---
 ## Server Software
-BedWars2023 is made for [spigot](https://www.spigotmc.org/) but it works also on spigot forks like [PaperMC](https://papermc.io/downloads).
+BedWars2023 is made for [spigot](https://www.spigotmc.org/), but it also works on spigot forks like [PaperMC](https://papermc.io/downloads).
 
-### Supported versions
-Only versions listed below are officially supported
+### Supported Versions
+Only the versions listed below are officially supported.
 * **1.8.8** (v1_8_R3)
 * **1.12.2** (v1_12_R1)
 * **1.16.5** (v1_16_R3)
@@ -25,10 +25,10 @@ Java 11 or newer is required for BedWars2023.
 We recommend using Java 17 or newer when possible.
 
 
-## Known issues  
-- If you're running your server on **FoxSpigot** and you can't pick up items from generators set `stack-items: true` in `generators.yml`  
-- [ViaRewind](https://www.spigotmc.org/resources/viarewind.52109/) and [ViaBackwards](https://www.spigotmc.org/resources/viabackwards.27448/) may cause issues during the gameplay.
-- [PlugMan](https://dev.bukkit.org/projects/plugman) Plugin may cause issues. Please don't use it.
-- PerWorldPlugins is not supported and don't ask to add support for it. Just don't use it PLEASE!
+## Known Issues
+- If you're running your server on **FoxSpigot** and you can't pick up items from generators, set `stack-items: true` in `generators.yml`.
+- [ViaRewind](https://www.spigotmc.org/resources/52109/) and [ViaBackwards](https://www.spigotmc.org/resources/27448/) may cause issues during the gameplay.
+- [PlugMan](https://dev.bukkit.org/projects/plugman/) plugin may cause issues. Please don't use it.
+- PerWorldPlugins is not supported, so don't ask to add support for it. Just don't use it, PLEASE!
 - Multiverse or any world manager. You must disable the world management for arena worlds.
 - This plugin uses NMS code; spigot forks without NMS are not supported.
