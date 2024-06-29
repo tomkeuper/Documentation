@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'BedWars2023',
   tagline: 'Here you can find information about all project related to BedWars2023',
-  favicon: 'img/logo.ico',
+  favicon: 'img/logo.png',
 
   // Set the production url of your site here
   url: 'https://docs.tomkeuper.com',
