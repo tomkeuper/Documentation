@@ -3,11 +3,11 @@ sidebar_label: Sounds Config
 title: Sounds Configuration
 sidebar_position: 3.8
 ---
-If you want to change those configuration values make sure you choose the right bukkit sounds for your server version.
+If you want to change those configuration values, make sure you choose the right bukkit sounds for your server version.
 
 **Invalid sounds or empty fields will be ignored.**
 
-[List of sounds](../resources)
+[List of Sounds](../resources)
 ```yaml
 game-end: ITEM_TRIDENT_THUNDER
 rejoin-denied: ENTITY_VILLAGER_NO
