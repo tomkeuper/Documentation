@@ -177,7 +177,7 @@ namehere-category:
         content-settings:
           weight: 1
 ```
-If you buy a content from that shop category with weight 2 you won't be able to buy content with lower weight in this category. Like this:
+If you buy a content from that shop category with weight 2, you won't be able to buy content with a lower weight in this category. Like this:
 ```yaml
 armor-category:
     category-content:
@@ -188,4 +188,4 @@ armor-category:
         content-settings:
           weight: 2
 ```
-In this example you'll no longer be able to buy the iron armor after buying the diamond armor.
+In this example, you'll no longer be able to buy the iron armor after buying the diamond armor.
