@@ -14,17 +14,17 @@ Get the player level. FORMATTED.
 
 Placeholder: `%bw2023_player_level%`
 ## Player Level Trimmed
-Get the player level. FORMATTED.
+Get the player level. FORMATTED. Removes `[` and `]`.
 
-Placeholder: `%bw2023_player_level%`
-## Player Level
-Get the player level. FORMATTED.
+Placeholder: `%bw2023_player_level_trim%`
+## Player Level Stripped
+Get the player level. FORMATTED. 
 
-Placeholder: `%bw2023_player_level%`
-## Player Level
-Get the player level. FORMATTED.
+Placeholder: `%bw2023_player_level_strip%`
+## Player Level Stripped + Trimmed
+Get the player level. FORMATTED. Removes `[` and `]`.
 
-Placeholder: `%bw2023_player_level%`
+Placeholder: `%bw2023_player_level_strip_trim%`
 
 ## Player Level Raw
 Get the player level NUMBER.
