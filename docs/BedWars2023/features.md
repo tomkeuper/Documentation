@@ -35,5 +35,5 @@ sidebar_position: 1.1
 
 ### Add-Ons
 * **Addon Support**: The BedWars2023 plugin supports community-made add-ons, expanding the plugin's functionality.
-* **Parties**: You can use [Parties](https://www.spigotmc.org/resources/parties-1-8-1-13.3709/) plugin on your network, and if a player creates a party in the lobby and then joins a game, he will be on the same team as friends.
+* **Parties**: You can use [Parties](https://spigotmc.org/resources/3709/) plugin on your network, and if a player creates a party in the lobby and then joins a game, he will be on the same team as friends.
 * **Other Addons**: A full list of addons can be found in [addons](addons).
