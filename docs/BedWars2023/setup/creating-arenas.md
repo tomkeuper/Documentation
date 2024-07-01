@@ -5,7 +5,7 @@ sidebar_position: 2.2
 ---
 ## Video tutorial
 
-[![Video tutorial](https://img.youtube.com/vi/pPCa2Se-QSY/0.jpg)](https://www.youtu.be/pPCa2Se-QSY&t "Tutorial")
+[![Video tutorial](https://img.youtube.com/vi/pPCa2Se-QSY/0.jpg)](https://youtu.be/pPCa2Se-QSY&t "Tutorial")
 
 ## Step-by-step Tutorial
 
