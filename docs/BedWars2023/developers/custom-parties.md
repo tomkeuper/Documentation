@@ -6,7 +6,7 @@ sidebar_position: 5.5
 Developers can create their own "Party Manager" by implementing the `com.tomkeuper.bedwars.api.party.Party` interface.
 Those methods are used by the plugin to manage the party system.
 
-### How to create
+### How to Create
 ```java
 public class CustomPartiesManager implements Party {
     
@@ -79,8 +79,8 @@ public class CustomPartiesManager implements Party {
 }
 ```
 
-### How to register
-This will safe-disable the BedWars2023 internal Levels System and will register yours.
+### How to Register
+This will safe-disable the BedWars2023 internal levels system and register yours.
 ```java
 BedWars bedwarsAPI = Bukkit.getServicesManager().getRegistration(BedWars .class).getProvider();
 bedwarsAPI.setPartyAdapter(new CustomPartiessManager());
