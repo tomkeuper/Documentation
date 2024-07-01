@@ -3,7 +3,7 @@ sidebar_label: Compatibility
 sidebar_position: 1.3
 ---
 ## Server Software
-BedWars2023 is made for [spigot](https://www.spigotmc.org/), but it also works on spigot forks like [PaperMC](https://papermc.io/downloads).
+BedWars2023 is made for [spigot](https://spigotmc.org/), but it also works on spigot forks like [PaperMC](https://papermc.io/downloads).
 
 ### Supported Versions
 Only the versions listed below are officially supported.
@@ -27,7 +27,7 @@ We recommend using Java 17 or newer when possible.
 
 ## Known Issues
 - If you're running your server on **FoxSpigot** and you can't pick up items from generators, set `stack-items: true` in `generators.yml`.
-- [ViaRewind](https://www.spigotmc.org/resources/52109/) and [ViaBackwards](https://www.spigotmc.org/resources/27448/) may cause issues during the gameplay.
+- [ViaRewind](https://spigotmc.org/resources/52109/) and [ViaBackwards](https://spigotmc.org/resources/27448/) may cause issues during the gameplay.
 - [PlugMan](https://dev.bukkit.org/projects/plugman/) plugin may cause issues. Please don't use it.
 - PerWorldPlugins is not supported, so don't ask to add support for it. Just don't use it, PLEASE!
 - Multiverse or any world manager. You must disable the world management for arena worlds.
