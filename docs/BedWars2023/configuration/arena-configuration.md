@@ -3,7 +3,7 @@ sidebar_label: Arena Config
 title: Arena Configuration
 sidebar_position: 3.3
 ---
-###### Custom team name
+#### Custom Team Name
 - Each team can have a custom display name per language. You can configure a team name at this path: `team-name-<arenaName>-<teamName>` in `Languages/messages_x.yml`.
 
 #### Config Explanation
@@ -59,7 +59,7 @@ disable-generator-for-empty-teams: false
 #Set this to true to disable the spawning of shopkeepers for empty teams
 disable-npcs-for-empty-teams: true
 
-#Set this to true if you want to disable the BedWars1058 drops management
+#Set this to true if you want to disable the BedWars2023 drops management
 #If you set this to true players will have regular loots as minecraft does
 vanilla-death-drops: false
 

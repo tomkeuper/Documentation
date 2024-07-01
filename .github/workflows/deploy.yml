@@ -2,7 +2,7 @@ name: Deploy production documentation
 
 on:
   push:
-    branches: [master]
+    branches: [production]
 
 jobs:
   deploy:

@@ -18,7 +18,7 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Build website files
         run: yarn build
-      - name: Copy to production server
+      - name: Copy to development server
         uses: wangyucode/sftp-upload-action@v2.0.2
         with:
           host: ${{ vars.PROD_HOST }}

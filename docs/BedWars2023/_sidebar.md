@@ -37,7 +37,7 @@
  * [Getting Started](developers/getting-started)
  * [Maven](developers/maven)
  * [Events](developers/events)
- * [JavaDocs](http://javadocs.tomkeuper.com/BedWars1058/)
+ * [JavaDocs](http://javadocs.tomkeuper.com/)
  * [Creating Commands](developers/commands)
  * [Custom Levels System](developers/custom-levels)
  * [Creating Custom Generators](developers/creating-ore-generators)

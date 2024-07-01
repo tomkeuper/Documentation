@@ -3,17 +3,17 @@ sidebar_label: Main Config
 title: Main Config
 sidebar_position: 3.2
 ---
-This page contains the documentation about the `config.yml` file located in `plugins/BedWars1058`.
+This page contains documentation about the `config.yml` file located in `plugins/BedWars2023`.
 
 Make sure you're using the right material name when changing item materials in config.
 
-For a list of materials, sounds, and potions, check the [resources page](../resources)
+For a list of materials, sounds, and potions, check the [resources page](../resources).
 
 ```yaml
 # There are 4 choices for this option:
 # 1. MULTIARENA it means that you can run multiple arenas on a single paper/spigot server instance.
 # 2. SHARED it means that you can run multiple arenas on a single paper/spigot server instance 
-#   which have other minigames on it. Lobby world is not protected by BedWars1058 in this case.
+#   which have other minigames on it. Lobby world is not protected by BedWars2023 in this case.
 # 3. BUNGEE allows you to run multiple arenas on a single server and to keep them connected to an external
 # lobby. When a game starts the arena is cloned (auto-scale) in order to have always free arenas.
 # 4. BUNGEE_LEGACY it means that you can run a single arena on a paper/single spigot server.
@@ -22,7 +22,7 @@ serverType: MULTIARENA
 
 # This is used as default language for your BedWars server.
 # It is "language: en" by default. It means that English is the default message for your server and it takes
-# messages from "plugins/BedWars1058/Languages/messages_en.yml".
+# messages from "plugins/BedWars2023/Languages/messages_en.yml".
 # You can add your own language to the server by creating a new `yml` file.
 # Let's suppose you want to add the Romanian language. Create a new file called "messages_ro.yml",
 # copy the messages from "messages_en.yml" and then translate them.
@@ -44,7 +44,7 @@ lobbyServer: hub
 # Players from arenas and from the lobby will see all messages. Spectator messages are excluded.
 globalChat: false
 
-#Se this option to true if you want BedWars1058 to manage the chat format.
+#Se this option to true if you want BedWars2023 to manage the chat format.
 formatChat: true
 
 # Set this to true in order to receive debug messages in the console.
@@ -242,7 +242,7 @@ performance-settings:
   rotate-generators: true
 
   # Set this to true if you want to disable the packets used when a player respawns.
-  # BedWars1058 uses them to fix possible invisibility issues.
+  # BedWars2023 uses them to fix possible invisibility issues.
   disable-respawn-packets: false
 
   # Set this to true if you want to disable the packets used to hide
@@ -312,7 +312,7 @@ stats-gui:
   
   # Statistic name
   # You can add/ remove content with this structure to display your custom stats
-  # Messages are located in BedWars1058/Languages/messages_en.yml
+  # Messages are located in BedWars2023/Languages/messages_en.yml
   # Restart your server to generate them paths (they will have "name not set" names)
   # Messages will be located at: stats-name-name, stats-name-lore
   # Example: for this case will be stats-wins-name
@@ -334,7 +334,7 @@ stats-gui:
 # in his inventory. The other items are given without checking any conditions.
 start-items-per-group:
   #This is the the name of the arena group where to give the start items. If you don't know what is it, 
-  # read about them https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups.
+  # read about them https://wiki.tomkeuper.com/docs/BedWars2023/setup/arena-groups.
   # Arenas without an given arena group will receive items from "Default". Start items are unbreakable!
   Default:
   - WOODEN_SWORD

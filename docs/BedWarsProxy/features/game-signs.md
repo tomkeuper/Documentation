@@ -22,7 +22,7 @@ Example:<br/>
 ![](/img/dyn_sign.png)
 
 :::caution Required Permission
-The permisison required to create signs is `bw.setup`
+The permission required to create signs is `bw.setup`
 :::
 :::tip
 CROUCH (SHIFT) + CLICK to remove a sign
@@ -69,7 +69,7 @@ In order to create a static sign, place a sign on a block and write [bw] on the 
 Example:<br/>
 ![](/img/static_sign.png)
 :::caution Required Permission
-The permisison required to create signs is `bw.setup`
+The permission required to create signs is `bw.setup`
 :::
 :::tip
 CROUCH (SHIFT) + CLICK to remove a sign

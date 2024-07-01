@@ -112,10 +112,11 @@ Default:
 stack-items: false
 `````
 
-### Custom generators per Arena Group
-If you don't know what is an arena group read about it [here](../setup/arena-groups).
+### Custom Generators Per Arena Group
+If you don't know what is an arena group is, read about it [here](../setup/arena-groups).
 
-Creating custom configuration it's really easy. Copy the `Default` configuration path, paste it and rename `Default` to your desired arena group. We'll use `4v4v4v4` as example. You can now change those configuration values for your `4v4v4v4` arenas.
+Creating a custom configuration is really easy. Copy the `Default` configuration path, paste it, and rename `Default` to your desired arena group. We'll use `4v4v4v4` as an example. You can now change those configuration values for your `4v4v4v4` arenas.
+
 ````yaml
 4v4v4v4:
   iron:

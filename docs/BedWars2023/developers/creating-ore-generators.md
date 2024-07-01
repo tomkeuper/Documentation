@@ -3,7 +3,7 @@ sidebar_label: Custom Ore Generators
 title: Creating Custom Ore Generators
 sidebar_position: 5.6
 ---
-There are currently 5 types of generators, Iron, Gold, Diamond, Emerald and Custom. Addons can use the Custom generator type to register custom generators by implementing the `IGenerator` interface.
+There are currently 5 types of generators: Iron, Gold, Diamond, Emerald and Custom. Addons can use the Custom Generator type to register custom generators by implementing the `IGenerator` interface.
 
 ```java
 public class ExampleGenerator implements IGenerator {
@@ -84,7 +84,7 @@ public class ExampleGenerator implements IGenerator {
 
     @Override
     public void enableRotation() {
-        // this is called by BedWars1058 when the game starts. it requires to be a registered generator.
+        // this is called by BedWars2023 when the game starts. it requires to be a registered generator.
     }
 
     @Override
@@ -133,4 +133,4 @@ public class ExampleGenerator implements IGenerator {
 
 ### How to register it
 
-If you set its type as EMERALD/ DIAMOND and with no team, and you want it to be handled like a regular emerald/ diamond generator you have to add it to this list: `IArena#getOreGenerators()`. Or if you want it to be used as a team generator and refreshed (#spawnTry) by BedWars1058 add it to this list: `ITeam#getGenerators()`. For anything else, handle it yourself.
+If you set its type as EMERALD/ DIAMOND and have no team, and you want it to be handled like a regular emerald/ diamond generator, you have to add it to this list: `IArena#getOreGenerators()`. Or if you want it to be used as a team generator and refreshed (#spawnTry) by BedWars2023, add it to this list: `ITeam#getGenerators()`. For anything else, handle it yourself.
