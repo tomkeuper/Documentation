@@ -27,11 +27,11 @@ chat:
 ```
 
 ## Economy
-**BedWars2023** is also providing Vault Economy plugins support since the first version ever released.
+**BedWars2023** has also provided support for Vault Economy plugins since the first version ever released.
 
-You can use all the Economy plugins with [Vault](https://dev.bukkit.org/projects/vault) support like [Coins](https://www.spigotmc.org/resources/48536/) and any other economy plugins based on [Vault](https://dev.bukkit.org/projects/vault).
+You can use all the economy plugins with [Vault](https://dev.bukkit.org/projects/vault) support, like [Coins](https://www.spigotmc.org/resources/48536/), and any other economy plugins based on [Vault](https://dev.bukkit.org/projects/vault).
 
 ### Placeholders
 BedWars total money placeholder: {money}
 
-You can also use %vault_eco_balance% placeholder or the placeholder of you eco plugin.
+You can also use the %vault_eco_balance% placeholder or the placeholder of your eco plugin.
