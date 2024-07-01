@@ -20,4 +20,4 @@ Type ```/bw arenaGroup remove <groupName>```, where *groupName* is the group's n
 
 ### Video tutorial
 
-[![Video tutorial](https://img.youtube.com/vi/FJj1SvbIBA4/0.jpg)](https://www.youtube.com/watch?v=FJj1SvbIBA4 "Tutorial")
+[![Video tutorial](https://img.youtube.com/vi/FJj1SvbIBA4/0.jpg)](https://youtube.com/watch?v=FJj1SvbIBA4 "Tutorial")
