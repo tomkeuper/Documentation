@@ -6,15 +6,15 @@ sidebar_position: 3.5
 
 :::note
 
-If you want different prices per arena group you should use a server as a single arena (BUNGEE serverType).
+If you want different prices per arena group, you should use a server as a single arena (BUNGEE serverType).
 
 :::
 
-Make sure you're using the right material name when changing item materials in this config. If you want to make [custom categories](shop#how-to-create-items-like-the-armor-category). scroll to the bottom of the page.
+Make sure you're using the right material name when changing item materials in this config. If you want to make [custom categories](shop#how-to-create-items-like-the-armor-category), scroll to the bottom of the page.
 
 For a list of materials, sounds, and potions, check the [resources page](../resources).
 
-The following types of armor are supported: Leather, Chainmail, Iron, Diamond, Golden and Netherite. Please refer to the item list of the version you are using for the correct item names.
+The following types of armor are supported: Leather, Chainmail, Iron, Diamond, Golden, and Netherite. Please refer to the item list of the version you are using for the correct item names.
 
 ```yaml
 # This category contains various settings
@@ -177,7 +177,7 @@ namehere-category:
         content-settings:
           weight: 1
 ```
-If you buy a content from that shop category with weight 2 you won't be able to buy content with lower weight in this category. Like this:
+If you buy a content from that shop category with weight 2, you won't be able to buy content with a lower weight in this category. Like this:
 ```yaml
 armor-category:
     category-content:
@@ -188,4 +188,4 @@ armor-category:
         content-settings:
           weight: 2
 ```
-In this example you'll no longer be able to buy the iron armor after buying the diamond armor.
+In this example, you'll no longer be able to buy the iron armor after buying the diamond armor.

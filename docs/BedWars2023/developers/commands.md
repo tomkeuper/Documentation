@@ -3,7 +3,7 @@ sidebar_label: Creating Commands
 title: Creating Commands
 sidebar_position: 5.4
 ---
-If you want to create a command for your add-on like `/bw mycmd` continue reading on this page.
+If you want to create a command for your add-on, like `/bw mycmd`, continue reading on this page.
 
 **1.** Create a new class with extends `com.tomkeuper.bedwars.command.SubCommand`:
 ```java
@@ -51,7 +51,7 @@ public TutorialCommand(ParentCommand parent, String name) {
         setArenaSetupCommand(false);
     }
 ```
-**3.** After that you can deal with your code:
+**3.** After that, you can deal with your code:
 ```java
     @Override
     public boolean execute(String[] args, CommandSender s) {
@@ -73,7 +73,7 @@ public TutorialCommand(ParentCommand parent, String name) {
 
 **4.** Registering your sub-command:
 
-All you have to do is to initialize the class.
+All you have to do is initialize the class.
 ```java
     @Override
     public void onEnable() {

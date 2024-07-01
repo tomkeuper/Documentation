@@ -3,24 +3,27 @@ sidebar_label: PlaceholderAPI Support
 title: PlaceholderAPI Support
 sidebar_position: 3.2
 ---
-**BedWars2023** provides support for [PlaceholderAPI](https://www.spigotmc.org/resources/6245/). Support is loaded when BedWars2023 Plugin is enabled. You do not have to download it from PAPI e-cloud.
+**BedWars2023** provides support for [PlaceholderAPI](https://spigotmc.org/resources/6245/). Support is loaded when BedWars2023 plugin is enabled. You do not have to download it from PAPI e-cloud.
 
 If you want Per Arena Group Stats Placeholder, you can use I6y's [GroupStats](https://polymart.org/resource/3184/) Addon for Per Arena Group Stats Placeholders. 
 
-If you need help with using [PlaceholderAPI](https://www.spigotmc.org/resources/6245/) join their <a href="https://discord.gg/7sndK3q"><img src="https://discordapp.com/api/guilds/164280494874165248/widget.png"/></a>
+If you need help with using [PlaceholderAPI](https://spigotmc.org/resources/6245/), join their <a href="https://discord.gg/7sndK3q"><img src="https://discordapp.com/api/guilds/164280494874165248/widget.png"/></a>
 
 ## Player Level
 Get the player level. FORMATTED.
 
 Placeholder: `%bw2023_player_level%`
+
 ## Player Level Trimmed
 Get the player level. FORMATTED. Removes `[` and `]`.
 
 Placeholder: `%bw2023_player_level_trim%`
+
 ## Player Level Stripped
 Get the player level. FORMATTED. 
 
 Placeholder: `%bw2023_player_level_strip%`
+
 ## Player Level Stripped + Trimmed
 Get the player level. FORMATTED. Removes `[` and `]`.
 
@@ -33,29 +36,29 @@ Can be used for tops.
 Placeholder: `%bw2023_player_level_raw%`
 
 ## Progress Bar (Level)
-Get the player progress bar (formatted).
+Get the player progress bar (Formatted).
 
 Placeholder: `%bw2023_player_progress%`
 
 ## Player Xp (Formatted)
-Get the player current xp.
+Get the player's current Xp.
 Large numbers are shortened: 1000 -> 1k
 
 Placeholder: `%bw2023_player_xp_formatted%`
 
 ## Player Xp
-Get the player current xp.
+Get the player's current Xp.
 
 Placeholder: `%bw2023_player_xp%`
 
 ## Required Xp for Rankup (Formatted)
-Get the player required xp for rankup.
+Get the player's required xp for rankup.
 Large numbers are shortened: 1000 -> 1k
 
 Placeholder: `%bw2023_player_rerq_xp_formatted%`
 
 ## Required Xp for Rankup
-Get the player required xp for rankup.
+Get the player's required Xp for Rankup.
 
 Placeholder: `%bw2023_player_rerq_xp%`
 
@@ -75,7 +78,7 @@ Get a player's regular kills count.
 Placeholder: `%bw2023_stats_kills%`
 
 ## Total Kills
-Get a player's kills. (regular + final).
+Get a player's kills. (Regular + Final).
 
 Placeholder: `%bw2023_stats_total_kills%`;
 
@@ -114,8 +117,8 @@ Get a player's total games played count.
 
 Placeholder: `%bw2023_stats_gamesplayed%`
 
-## Players In Game
-Get current players (playing) count.
+## Players In-game
+Get current player's (Playing) count.
 
 Placeholder: `%bw2023_current_playing%`
 
@@ -125,12 +128,12 @@ Get total arenas count.
 Placeholder: `%bw2023_current_arenas%`
 
 ## Player Team
-This returns the player's team if he is a player. [SPECTATOR] if he is a spectator or an empty string if he is not in an arena. [SHOUT] if is a /shout or !message.
+This returns the player's team if he is a player. [SPECTATOR] if he is a spectator or an empty string if he is not in an arena. [SHOUT] if it is a /shout or !message.
 
 Placeholder: `%bw2023_player_team%`
 
 ## Player Status
-This return's the player's status. Meant for conditional placeholders
+This returns the player's status. Meant for conditional placeholders
 
 <details><summary>Values</summary>
 
@@ -144,8 +147,9 @@ This return's the player's status. Meant for conditional placeholders
 Placeholder: `%bw2023_player_status%`
 
 ## Arena Status
-This returns arena display status based on the server's default language. Since BedWars2023 v0.8.5beta.
-Will return "Restarting" if the arena is offline or if it does not exist.
+This returns arena display status based on the server's default language. Since BedWars2023 v0.8.5 Beta,
+
+will return "Restarting" if the arena is offline or if it does not exist.
 
 Placeholder: `%bw2023_arena_status_[arenaName]%`
 
@@ -157,7 +161,7 @@ This returns arena player count. Replace `[arenaName]` with the arena name.
 Placeholder: `%bw2023_arena_count_[arenaName]%`
 
 ## Arena Group Count
-Get the total players amount in a group. Replace `[groupName]` with its name.
+Get the total number of players in a group. Replace `[groupName]` with its name.
 
 **It also supports + operator:** `%bw2023_group_count_group1+group2%`
 
@@ -179,22 +183,22 @@ Get game elapsed time.
 Placeholder: `%bw2023_elapsed_time%`
 
 ## Team Letter
-Returns the first letter of the display name of the team the player is in.
+Returns the first letter of the display name of the team the player is on.
 
 Placeholder: `%bw2023_team_letter%`
 
 ## Team Color
-Returns the color of the team the player is in.
+Returns the color of the team the player is on.
 
 Placeholder: `%bw2023_team_color%`
 
 ## Team Status
-Returns the status (✓ or ×) of the team the player is in.
+Returns the status (✓ or ×) of the team the player is on.
 
 Placeholder: `%bw2023_team_status%`
 
 ## Team Players Amount
-Returns the number of players in the team the player is in.
+Returns the number of players in the team the player is on.
 
 Placeholder: `%bw2023_team_players_amount%`
 
@@ -219,12 +223,12 @@ Returns the status (✓ or ×) of the specified team.
 Placeholder: `%bw2023_team_status_[teamName]%`
 
 ## Team Players Amount (Specified)
-Returns the number of players in the specified team.
+Returns the number of players on the specified team.
 
 Placeholder: `%bw2023_team_players_amount_[teamName]%`
 
 ## Team Players (Specified)
-Returns the players in the specified team, with names separated by ", ".
+Returns the players on the specified team, with names separated by ", ".
 
 Placeholder: `%bw2023_team_players_[teamName]%`
 
@@ -284,7 +288,7 @@ Returns the number of final kills the player has in the current game.
 Placeholder: `%bw2023_player_kills_final%`
 
 ## Player Kills (Total)
-Returns the total number of kills (regular + final) the player has in the current game.
+Returns the total number of kills (Regular + Final) the player has in the current game.
 
 Placeholder: `%bw2023_player_kills_total%`
 

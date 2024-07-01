@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'BedWars2023',
   tagline: 'Here you can find information about all project related to BedWars2023',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
 
   // Set the production url of your site here
   url: 'https://docs.tomkeuper.com',
@@ -42,15 +42,15 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/tomkeuper/docs',
-        },
+            'https://github.com/tomkeuper/Documentation/edit/development/',
+/*        },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/tomkeuper/docs',
-        },
+            'https://github.com/tomkeuper/Documentation',
+        },*/
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Home',
+        title: 'BedWars2023',
         logo: {
           alt: 'BedWars2023 Logo',
           src: 'img/logo.svg',

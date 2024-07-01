@@ -4,9 +4,9 @@ title: Vault Support
 sidebar_position: 3.3
 ---
 ## Chat
-**BedWars2023** is providing [Vault](https://dev.bukkit.org/projects/vault) support since the first version ever released. 
+**BedWars2023** has been providing [Vault](https://dev.bukkit.org/projects/vault) support since the first version ever released. 
 
-You can add rank prefixes and suffixes in chat by adding [Vault](https://dev.bukkit.org/projects/vault) and your permissions plugin like [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) and any other permissions plugin based on [Vault](https://dev.bukkit.org/projects/vault).
+You can add rank prefixes and suffixes in chat by adding [Vault](https://dev.bukkit.org/projects/vault), your permissions plugin like [LuckPerms](https://spigotmc.org/resources/28140/), and any other permissions plugin based on [Vault](https://dev.bukkit.org/projects/vault).
 
 
 
@@ -15,7 +15,7 @@ Prefix placeholder: `{vPrefix}`
 
 Suffix placeholder: `{vSuffix}`
 
-You can use these placeholders at the **chat** section in `messages_<country>.yml`
+You can use these placeholders in the **chat** section in `messages_<country>.yml`
 
 ```yaml
 chat:
@@ -27,11 +27,11 @@ chat:
 ```
 
 ## Economy
-**BedWars2023** is also providing Vault Economy plugins support since the first version ever released.
+**BedWars2023** has also provided support for Vault Economy plugins since the first version ever released.
 
-You can use all the Economy plugins with [Vault](https://dev.bukkit.org/projects/vault) support like [Coins](https://www.spigotmc.org/resources/coins-1-8-x-1-12-x-mysql-sqlite-api.48536/) and any other economy plugins based on [Vault](https://dev.bukkit.org/projects/vault).
+You can use all the economy plugins with [Vault](https://dev.bukkit.org/projects/vault) support, like [Coins](https://spigotmc.org/resources/48536/), and any other economy plugins based on [Vault](https://dev.bukkit.org/projects/vault).
 
 ### Placeholders
 BedWars total money placeholder: {money}
 
-You can also use %vault_eco_balance% placeholder or the placeholder of you eco plugin.
+You can also use the %vault_eco_balance% placeholder or the placeholder of your eco plugin.

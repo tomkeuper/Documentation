@@ -3,9 +3,9 @@ sidebar_label: Getting Started
 title: Getting Started
 sidebar_position: 5.1
 ---
-## First step
-If you want to create an addon for BedWars2023 make sure to use the following steps.
-1. Add it as softdepend in [plugin.yml](https://www.spigotmc.org/wiki/plugin-yml/): `softdepend: [BedWars2023]`
+## First Step
+If you want to create an addon for BedWars2023 make sure to use the following steps:
+1. Add it as a softdepend in the [plugin.yml](https://spigotmc.org/wiki/plugin-yml/): `softdepend: [BedWars2023]`
 2. Check if [BedWars2023](https://github.com/tomkeuper/BedWars2023) is on the server:
     ```java
     @Override
@@ -18,7 +18,7 @@ If you want to create an addon for BedWars2023 make sure to use the following st
         }
     }
     ```
-3. Register your addon within BedWars2023 by extending the Addon class. (This can be done within the main class or a separate class.)
+3. Register your addon within BedWars2023 by extending the addon class. (This can be done within the main class or a separate class.)
     ```java
     public class BW2023 extends Addon {
     
@@ -59,7 +59,7 @@ If you want to create an addon for BedWars2023 make sure to use the following st
         }
     }
     ```
-4. In your main class, after getting the API Methods, you need to register your addon.
+4. In your main class, after getting the API methods, you need to register your addon.
     ```java
     BedWars bedwarsAPI = Bukkit.getServicesManager().getRegistration(BedWars.class).getProvider();
     bedwarsAPI.getAddonsUtil().registerAddon(this);
@@ -75,4 +75,4 @@ BedWars bedwarsAPI = Bukkit.getServicesManager().getRegistration(BedWars.class).
 [Click here](https://javadocs.tomkeuper.com/) for JavaDocs.
 
 ## Configuration
-If you want to create a config file for your add-on, you should use the build in config manager and create it in `plugins/BedWars2023/Addons/{addonName}/config.yml`.
+If you want to create a config file for your add-on, you should use the build-in config manager and create it in `plugins/BedWars2023/Addons/{addonName}/config.yml`.
