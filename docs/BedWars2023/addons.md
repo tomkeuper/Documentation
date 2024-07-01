@@ -16,5 +16,5 @@ If you encounter any issues regarding addons for BedWars, make sure to contact t
 - [Private Games for BedWars2023](https://discord.gg/YA3q8tFU7e) - by Kiiya
 - [Map break for BedWars2023](https://discord.gg/9zjjUrfuSF) - by Kiiya
 - [Hotbar Manager for BedWars2023](https://discord.gg/sgHFSdtznH) - by Kiiya
-- [Cosmetics for BedWars2023](https://www.spigotmc.org/resources/bedwars-cosmetics.106685/) - by IAmTheDefender
-- [GroupStats for BedWars2023](https://polymart.org/resource/bedwars2023-groupstats.5904) - by Lagggpixel
+- [Cosmetics for BedWars2023](https://spigotmc.org/resources/106685/) - by IAmTheDefender
+- [GroupStats for BedWars2023](https://polymart.org/resource/5904/) - by Lagggpixel
