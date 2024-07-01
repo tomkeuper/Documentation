@@ -4,9 +4,9 @@ title: Custom Database
 sidebar_position: 5.5
 ---
 Developers can create their own "Database Manager" by implementing the `com.tomkeuper.bedwars.api.database.IDatabase` interface.
-Those methods are used by the plugin to save or get stats/levels etc.
+Those methods are used by the plugin to save or get stats, levels etc.
 
-### How to create
+### How to Create
 ```java
 public class CustomDatabaseManager implements IDatabase {
     
@@ -88,8 +88,8 @@ public class CustomDatabaseManager implements IDatabase {
 }
 ```
 
-### How to register
-This will safe-disable the BedWars2023 internal Levels System and will register yours.
+### How to Register
+This will disable the BedWars2023 internal levels system and register yours.
 ```java
 BedWars bedwarsAPI = Bukkit.getServicesManager().getRegistration(BedWars .class).getProvider();
 bedwarsAPI.setRemoteDatabase(new CustomDatabaseManager());
