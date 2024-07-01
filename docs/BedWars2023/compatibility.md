@@ -3,7 +3,7 @@ sidebar_label: Compatibility
 sidebar_position: 1.3
 ---
 ## Server Software
-BedWars2023 is made for [spigot](https://spigotmc.org/), but it also works on spigot forks like [PaperMC](https://papermc.io/downloads).
+BedWars2023 is made for [Spigot](https://spigotmc.org/), but it also works on spigot forks like [PaperMC](https://papermc.io/downloads).
 
 ### Supported Versions
 Only the versions listed below are officially supported.
