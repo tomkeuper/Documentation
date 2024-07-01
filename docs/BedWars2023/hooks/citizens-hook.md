@@ -3,11 +3,11 @@ sidebar_label: Citizens Support
 title: Citizens Support
 sidebar_position: 3.4
 ---
-**BedWars2023** adds [Citizens](https://www.spigotmc.org/resources/citizens.13811/) support by installing it on your server. After this, you will have access to the sub-command `/bw npc` to create or remove join-NPCs. Make sure you have installed the correct version of Citizens compatible with your server in order to have this command listed in `/bw`.
+**BedWars2023** adds [Citizens](https://spigotmc.org/resources/13811/) support by installing it on your server. After this, you will have access to the sub-command `/bw npc` to create or remove join-NPCs. Make sure you have installed the correct version of Citizens compatible with your server in order to have this command listed in `/bw`.
 
 # Video tutorial
 
-[![Video tutorial](https://img.youtube.com/vi/6aluXVNN--Q/0.jpg)](https://www.youtube.com/watch?v=6aluXVNN--Q "Tutorial")
+[![Video tutorial](https://img.youtube.com/vi/6aluXVNN--Q/0.jpg)](https://youtube.com/watch?v=6aluXVNN--Q "Tutorial")
 
 # Creating an NPC
 Join your server and use the following command: `/bw npc create <skinName> <groupName> <Line1>\n<Line2>`
