@@ -18,3 +18,10 @@ If you encounter any issues regarding addons for BedWars, make sure to contact t
 - [Hotbar Manager for BedWars2023](https://discord.gg/sgHFSdtznH) - by Kiiya
 - [Cosmetics for BedWars2023](https://spigotmc.org/resources/106685/) - by IAmTheDefender
 - [GroupStats for BedWars2023](https://polymart.org/resource/5904/) - by Lagggpixel
+
+## Pre-made Setups
+
+You can download some Pre-made Setups from here.
+
+### Free Setups
+- by BijjuXD (cxSTUDIOS) - [🔥FREE BEDWARS SETUP 🔥](https://polymart.org/r/4343)
