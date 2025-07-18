@@ -51,6 +51,7 @@ When adding a tier to `upgrades.yml`, you should add another line in each of the
 - `%bw_required_xp%` - shows the required xp to rank up. Does not auto-refresh.
 - `%bw_progress%` - shows the progress bar. Does not auto-refresh.
 - `%bw_losses%` - shows the player's losses. Does not auto-refresh.
+- `%bw_total_kills%` - shows the player's total kills, final + regular (when not used in game). Does not auto-refresh.
 - `%bw_kills%` - shows the player's total kills (when not used in game). Does not auto-refresh.
 - `%bw_player%` - shows the player name.
 - `%bw_deaths%` - shows the player's total deaths (when not used in game). Does not auto-refresh.
@@ -66,6 +67,7 @@ When adding a tier to `upgrades.yml`, you should add another line in each of the
 
 #### In-game Placeholders:
 - `%bw_deaths%` - shows the player's deaths in current game (when used in game).
+- `%bw_total_kills%` - shows the player's kills in current game, final + regular (when used in game).
 - `%bw_kills%` - shows the player's kills in current game (when used in game).
 - `%bw_final_kills%` - shows player's final kills in current game (when used in game).
 - `%bw_beds%` - shows beds destroyed by player in current game (when used in game).
