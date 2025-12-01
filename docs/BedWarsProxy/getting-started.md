@@ -15,26 +15,24 @@ BWProxy2023 is a plugin that can be installed on lobby/hub servers. Do not insta
 :::
 
 1. Copy the BWProxy2023.jar in the plugins folder for your lobby server and restart your server.
-2. Open BWProxy2023's config.yml and set your desired port that will be used to receive data from the arenas.
-   * This **can not** be the same as the server's port (from server.properties)
-   * Note that the port must be open, available, and accessible from your arena server(s)
-3. Still in BWProxy2023's config.yml, insert your database credentials to sync bed-wars statistics from arenas.
-   * If you skip this step, BWProxy2023 will still function, however any stats you get from BWProxy2023 will be incorrect.
-4. Restart the lobby server
-5. Go on each BedWars arena server's files and open `plugins/BedWars2023/config.yml`.
-   1. Add the lobby's ip and BWProxy2023 port under `lobby-sockets`.
-   2. For example, if your lobby's ip is `51.77.158.119`,
-      and the BWProxy2023 port you set in step 2 is `25569`, then this would be your config:<br/>![](/img/immagine.png)
-   3. Next, change `server-id` to be the name of the arena server in your BungeeCord/Velocity config.
-      In the example above, the server name in the BungeeCord config is `bw1`.
+2. Open BWProxy2023's config.yml.
+3. Insert your database credentials to synchronize bed-wars statistics from arenas.
+   * If you skip this step, BWProxy2023 will still function, however any stats you get from BWProxy2023 will be incorrect. 
+4. Under bungeecord-settings, add redis-configuration with your Redis host, port, password (quote if it contains special chars) and channel.
+   * The channel should be the same across all your servers (lobby and arenas).
+5. Restart the lobby server
+6. Go on each BedWars arena server's files and open `plugins/BedWars2023/config.yml`.
+   1. Under `bungeecord-settings` change the `host`, `port`, `password` and `channel` to the same values you set in step 4.
+   2. Next, change `server-id` to be the name of the arena server in your BungeeCord/Velocity config.
+   In the example above, the server name in the BungeeCord config is `bw1`.
       1. An easy way to double-check that you set this correctly is to do `/server <server>`,
          replacing `<server>` with what you put in `server-id`
-   4. Now, set the `lobbyServer` option to the name of your lobby server
+   3. Now, set the `lobby-server` option to the name of your lobby server
       1. This is similar to how you set `server-id`, but with your lobby server instead of the arena server.
-   5. Set the `serverType` to `BUNGEE`
-   6. Restart the arena server
-   7. Repeat steps `i-vi` for each of your arena servers
-6. Make sure you've restarted each of the servers (after configuring them), and enjoy!
+   4. Set the `serverType` to `BUNGEE`
+   5. Restart the arena server
+   6. Repeat steps `i-vi` for each of your arena servers
+7. Make sure you've restarted each of the servers (after configuring them), and enjoy!
 
 ## Usage
 To open the arena selector, you can use `/bw gui`
