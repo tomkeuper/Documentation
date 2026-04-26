@@ -69,3 +69,4 @@ sidebar_position: 3.1
 | Cmd Bypass     |    Allows to use non whitelisted commands in game.    |   bw.cmd.bypass |
 | Shout Cooldown |                 Skip shout cooldown.                  | bw.shout.bypass |
 | Setup join     |    Join a BUNGEE mode (autoscale) server directly.    |        bw.setup |
+| Golden GG      |Transforms the gg to gold for instance for the winners |     bw.goldengg |

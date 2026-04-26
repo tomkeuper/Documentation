@@ -395,4 +395,11 @@ spectator-items:
 
 # Allow generator splitting between teammates
 enable-gen-split: true
+
+# Allow golden GG: If a winner send a chat message containing gg the it will be gold!
+# Allowing trough permissions
+golden-gg-feature:
+  enable: true
+  # Bukkit colors only (have to fix that later)
+  color: GOLD
 ```
